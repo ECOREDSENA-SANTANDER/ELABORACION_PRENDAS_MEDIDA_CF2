@@ -87,14 +87,18 @@
     #t_1_5.titulo-segundo
       h2 1.5 Clasificación de universos de vestuario
 
-    AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-      div(titulo="Grupo 1. Gala y formal")
+    
+      div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 1. Gala y formal")
+        h3.text-center Grupo 1. Gala y formal
         SlyderB(:datos="datosSlyderGalayformal")
-      div(titulo="Grupo 2. Casual")
+      div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 2. Casual")
+        h3.text-center Grupo 2. Casual
         SlyderB(:datos="datosSlyderCasual")
-      div(titulo="Grupo 3. Informal")
+      div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 3. Informal")
+        h3.text-center Grupo 3. Informal
         SlyderB(:datos="datosSlyderInformal")
-      div(titulo="Grupo 4. Intima")
+      div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 4. Intima")
+        h3.text-center Grupo 4. Intima
         SlyderB(:datos="datosSlyderIntima")
 
     hr
@@ -106,8 +110,26 @@
         div
           h3 Ocasiones de uso
           p Contempla los distintos escenarios en los que una persona viste una prenda, esto permite que en los universos de vestuarios se permita segmentar aún más el producto. Dentro de estas ocasiones de uso se encuentra, protocolario (formal), multiocasión, informal y complementos. Para tener mayor claridad en la correspondencia de las ocasiones de uso con universos del vestuario, se debe tener presente el siguiente esquema:
-
-      .col-7
+      .col-7.d-flex.align-items-center.justify-content-center
+        .tabla-a.color-acento-botones
+          table           
+            thead
+              tr
+                th(colspan=2) Ocasión de uso
+                th(colspan=5) Universo de vestuario               
+            tbody
+              tr
+                td(colspan=2) Protocolario
+                td(colspan=5) Gala, Formal
+              tr
+                td(colspan=2) Multiocasión
+                td(colspan=5) Casual
+              tr
+                td(colspan=2) Informal
+                td(colspan=5) Kakiwear, Jeanswear, Sportswear, Active wear, Leisurewear
+              tr
+                td(colspan=2) Complementario
+                td(colspan=5) Swinwear – Beachwear, Sleepwear, Underwear     
     hr
     .row
       .col-1.d-flex.align-items-center.justify-content-center
