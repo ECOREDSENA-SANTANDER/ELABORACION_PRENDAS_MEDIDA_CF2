@@ -53,6 +53,20 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
+        numero: '2',
+        titulo: 'Tendencias',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Tipologías de prendas',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
