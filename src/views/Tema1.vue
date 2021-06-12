@@ -35,7 +35,7 @@
     .titulo-quinto.color-acento-contenido
       div
         h4.mb-0 Figura 4
-        | Sistema de la moda en el mundo
+        i Sistema de la moda en el mundo
 
     .row.mb-4
       .col-2

@@ -13,7 +13,7 @@
     .titulo-quinto.color-acento-contenido
       div
         h4.mb-0.px-5 Figura 10
-        | Figurín
+        i Figurín
     .row.mb-4
       .col-2
       .col-8
@@ -60,14 +60,14 @@
         .titulo-quinto.color-acento-contenido
           div
             h4.mb-0.px-5 Figura 11
-            | Cuadro metamórfico
+            i Cuadro metamórfico
         figure
           img(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
       .col-8
         .titulo-quinto.color-acento-contenido
           div
             h4.mb-0.px-5 Figura 12
-            | Prendas por separado
+            i Prendas por separado
         figure
           img(src='@/assets/curso/tema2/img11.png', alt='Texto que describa la imagen')
 
@@ -80,7 +80,7 @@
         .titulo-quinto.color-acento-contenido
           div
             h4.mb-0.px-5 Figura 13
-            | Ejemplo de un cuadro metamórfico de prendas
+            i Ejemplo de un cuadro metamórfico de prendas
         figure
           img(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')
       .col-3
@@ -93,7 +93,7 @@
         .titulo-quinto.color-acento-contenido
           div
             h4.mb-0.px-5 Figura 14
-            | Tipología blazer
+            i Tipología blazer
         figure
           img(src='@/assets/curso/tema2/img13.png', alt='Texto que describa la imagen')
       .col-3
