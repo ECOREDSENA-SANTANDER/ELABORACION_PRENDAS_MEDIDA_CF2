@@ -236,7 +236,7 @@
             p <b>De punto: </b>se encuentran las de nylon, tienen estiramiento a lo ancho y estabilidad a lo largo, le añade forma y cuerpo a prácticamente cualquier tela tejida o de punto.
             
         figure.mb-4.px-4
-          img(src='@/assets/curso/tema4/img10.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema4/img10.svg', alt='Texto que describa la imagen')
         
     br
     br
@@ -324,7 +324,7 @@
       .col-2
       .col-8
         figure
-          img(src='@/assets/curso/tema4/img14.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema4/img14.png', alt='Texto que describa la imagen')
       .col-2
     br
     .row.mb-4
