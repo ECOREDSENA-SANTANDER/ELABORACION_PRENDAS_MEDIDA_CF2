@@ -28,10 +28,19 @@
           .row
             .col-1
             .col-11
-              p.mb-0 Las macrotendencias.
-              p.mb-0 Las pasarelas de los grandes diseñadores del mundo.
-              p.mb-0 El análisis y conocimiento del consumidor.
-              p.mb-0 Los referentes influyentes en la sociedad, como los grandes personajes que son seguidos por millones de individuos.
+              ul.lista-ul--color
+                li 
+                  i(style="color: #EDE3B7").far.fa-dot-circle
+                  p Las macrotendencias.
+                li 
+                  i(style="color: #EDE3B7").far.fa-dot-circle
+                  p Las pasarelas de los grandes diseñadores del mundo.
+                li 
+                  i(style="color: #EDE3B7").far.fa-dot-circle
+                  p El análisis y conocimiento del consumidor.
+                li 
+                  i(style="color: #EDE3B7").far.fa-dot-circle
+                  p Los referentes influyentes en la sociedad, como los grandes personajes que son seguidos por millones de individuos.
 
       .col-6
         .cajon.color-acento-contenido.fondo-b.p-4.mb-4        
@@ -94,9 +103,14 @@
             figure
               img(src='@/assets/curso/tema2/img05.svg', alt='Texto que describa la imagen')
     
-    p.mb-5.text-center
+    p.mb-3.text-center
       strong Así, para la comprensión de la difusión de tendencias es necesario comprender las siguientes teorías:
 
+    .row
+      .col-1
+      .col-10
+        hr     
+      .col-1
     .row.mb-4
       .col-1
       .col-1.d-flex.align-items-center.justify-content-center
@@ -105,7 +119,7 @@
       .col-9.d-flex.align-items-center
         div
           p.mb-2
-            strong Trickle Down o transmisión vertical hacia abajo: 
+            strong Trickle Down o transmisión vertical hacia abajo
           p Propuesta por George Simmel en 1905, enfocada en que la difusión es impuesta por las clases altas en un afán de distinción y muestra a toda la sociedad, esto incluye clases sociales bajas; es decir, la moda se impone bajo un modelo de imitación y es aquí donde las clases bajas toman estos referentes y los apropian.
       .col-1
     .row.mb-4

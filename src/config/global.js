@@ -51,6 +51,12 @@ export default {
             titulo: 'Universos de vestuario',
             hash: 't_1_4',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Clasificación de universos de vestuario',
+            hash: 't_1_5',
+          },
         ],
       },
       {
@@ -150,88 +156,98 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Astrid Lili Puerta',
+        nombre: 'Ledy Johana Velásquez Hernández',
         cargo: 'Experta temática',
-        centro: 'Centro Agropecuario de Buga',
-        regional: 'Regional valle',
+        centro: 'Diseño, Confección y Moda',
+        regional: 'Regional Antioquia',
       },
       {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto temático',
-        centro: 'Centro de Gestión Industrial',
-        regional: 'Regional Distrito Capital',
+        nombre: 'Paola Angélica Castro Salazar',
+        cargo: 'Experta temática',
+        centro: 'Diseño, Confección y Moda',
+        regional: 'Regional Antioquia',
       },
       {
-        nombre: 'Michael Andrés Cortés Caro',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto temático',
-        centro: 'Deutsche Gesellschaft für',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
-      },
-      {
-        nombre: 'Liliana Victoria Morales Gualdrón',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador instruccional',
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Diseño y Metrología',
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y Metrología',
         regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
+        regional: 'Regional Distrito Capital.',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable equipo',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
+      },
+      {
+        nombre: 'Oscar Ivan Uribe Ortiz',
+        cargo: 'Diseño web',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
-        cargo: 'Diseño web y Producción Audiovisual',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
+      },
+      {
+        nombre: [
+          'Wilson Andrés Arenales Caceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Maria Carolina Tamayo',
+          'Lina Perez',
+          'Adriana Suarez',
+          'Adriana Ariza',
+          'Maria Camila Ovalle',
+        ],
+        cargo: 'Producción audiovisual',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Edward Leonardo Pico Cabra',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Edgar Mauricio Cortes García',
+        cargo: 'Desarrollo front-end',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'María Isabel Román Rueda',
+        cargo: 'Validación de diseño y contenido',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
     ],
@@ -239,134 +255,275 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Dearing, J. W. (2009). Applying Diffusion of Innovation Theory to Intervention Development. Research on Social Work Practice, 19(5), 503-518. ',
+      link: 'https://doi.org/10.1177/1049731509335569',
+    },
+    {
+      referencia:
+        'El rincón de Celeste Cielo. (2021). Historia de las fibras textiles. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://elrincondecelestecielo.blogspot.com/2015/04/historia-de-las-fibras-textiles-y-los.html#:~:text=Se%20clasifican%20en%20dos%20grandes,fibras%20animales%2C%20vegetales%20y%20minerales.',
+    },
+    {
+      referencia: 'Frogx3. (2021). Pantone Food. ',
+      link: 'https://www.frogx3.com/2017/07/11/pantone-food-arte/',
+    },
+    {
+      referencia: 'Hobeika, G. (2018). George Hobeika. ',
+      link: 'http://es.orientpalms.com/Georges-Hobeika-7004',
+    },
+    {
+      referencia: 'Inexmoda. (2021). Fashion snoops. Inexmoda. ',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'King, W. (1965). Fashion adoption: a rebuttal to the trickle down ttheory. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.econbiz.de/Record/fashion-adoption-a-rebuttal-to-the-trickle-down-theory-king-charles/10002208542',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Mujer. (2020). Cómo adaptar la moda de las pasarelas a la decoración de espacios. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://www.mujer.com.pa/deco-hogar/como-adaptar-la-moda-de-las-pasarelas-la-decoracion-de-espacios',
     },
     {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+      referencia: 'Novik, L. (2020). Blink Design. ',
+      link: 'https://www.blinkdg.com/',
     },
     {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      referencia: 'Phelps, N. (2020). Dolce & Gabbana. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.vogue.com/fashion-shows/spring-2021-ready-to-wear/dolce-gabbana',
+    },
+    {
+      referencia: 'Pinterest. (2021). Imagen. ',
+      link: 'https://co.pinterest.com/pin/687573068104655218/',
+    },
+    {
+      referencia: 'Pinterest. (2021). Imagen. ',
+      link: 'https://co.pinterest.com/pin/765049055450738064/',
+    },
+    {
+      referencia: 'Pinterest. (2021). Imagen. ',
+      link: 'https://www.pinterest.es/pin/6122149483400316/',
+    },
+    {
+      referencia: 'Pinterest. (2021). Imagen. ',
+      link: 'https://www.pinterest.es/pin/741264419910091019/',
+    },
+    {
+      referencia: 'Pinterest. (2021). Imagen. ',
+      link: 'https://www.pinterest.es/pin/815010863817269466/',
+    },
+    {
+      referencia: 'PlayBoy. (2020). Imagen. ',
+      link:
+        'https://www.playboy.com.mx/guia-playboy/moda-inspirada-en-obras-de-arte/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Salinas, R. (1994). Color harmony 2. La armonía en el color, nuevas tendencias, guía para la combinación creativa de colores. Editorial La Armonía del Color.',
     },
     {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+      referencia: 'Sayonara. (2021). Movimiento slow moda. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://sayonaravintage.com/2015/01/movimiento-slow-moda-sostenible-comercio-justo/',
+    },
+    {
+      referencia: 'SENA. (2020). Cliente. [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=4WIq433jNMA',
+    },
+    {
+      referencia: 'SENA. (2020). Servicio al cliente. [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=dB6FOVF-wWs',
+    },
+    {
+      referencia: 'SENA. (2020). Tipos de clientes. [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=FxVNkf957tw&t=26s',
+    },
+    {
+      referencia: 'SENA. (2021). Los acabados textiles. SENA.',
+    },
+    {
+      referencia: 'SENA. (2021). Moodboard tableros creativos. SENA. ',
+    },
+    {
+      referencia: 'Simmel, G. (1904). Fashion. ',
+      link:
+        'https://sites.middlebury.edu/individualandthesociety/files/2010/09/Simmel.fashion.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Alta costura',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'vestuario hecho sobre medida creado por los diseñadores líderes que, usualmente forma parte de una colección para una estación específica, la cual es determinante en la moda en general. La alta costura fue fundada por Charles Frederick Worth en París en la segunda mitad del siglo XIX; a principios del siglo XX fue dominada por Paul Poiret y después por Coco Chanel durante y después de la primera guerra mundial. ',
     },
     {
-      termino: 'Suftware',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Atelier',
+      significado: 'taller de creación de moda. ',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Bidimensional ',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'que se representa según su altura y su anchura, y no su profundidad. ',
     },
     {
-      termino: 'Áectores',
+      termino: 'Coolhunter',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'persona que se dedica a la recolección de información sobre tendencias de moda. ',
     },
     {
-      termino: 'Moda',
+      termino: 'Corsé',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'prenda femenina que ciñe el cuerpo desde el pecho hasta las caderas mediante una estructura que se ata fuertemente a la espalda. ',
     },
     {
       termino: 'Diseño',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas. ',
+    },
+    {
+      termino: 'Estilo ',
+      significado:
+        'manifestación personal de cada individuo según las características propias y su comunicación a través de su actitud y su vestuario. En el estilo se manifiesta la identidad de la persona que está fundamentada en la unidad que se refleja a partir de la relación existente entre el ser y su aspecto exterior o la apariencia.',
+    },
+    {
+      termino: 'Moda ',
+      significado:
+        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+    },
+    {
+      termino: 'Outfit',
+      significado:
+        'conjunto de prendas combinadas de una manera determinada. Designa un atuendo concreto, pero su uso se ha popularizado hasta el punto de emplearse como sinónimo del término genérico conjunto. ',
+    },
+    {
+      termino: 'Oversize',
+      significado:
+        'dicho de una prenda de vestir, la que es de mayor talla que la necesaria. También se utiliza para definir el estilo derivado de vestir este tipo de prendas. ',
+    },
+    {
+      termino: 'Street style ',
+      significado:
+        'estilo de ropa que se lleva para ir por la calle. También se llaman así las fotos espontáneas que muestran el estilo que llevan determinadas personas por la calle, y los blogs en los que se publican estas fotos. ',
+    },
+    {
+      termino: 'Style ',
+      significado: 'estilo de una prenda; manera o modo de vestir. ',
+    },
+    {
+      termino: 'Tail hem (corte asimétrico) ',
+      significado:
+        'estructura de las prendas, más cortas por delante que por detrás, con la que se consigue el llamado “efecto cola” en faldas y vestidos. ',
     },
     {
       termino: 'Tipología',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas ',
     },
     {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+      termino: 'T-shirt',
+      significado: 'camiseta.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Total look (coordinado)',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'atuendo conjuntado con el mismo estilo, el mismo color o incluso la misma marca. La coordinación puede llegar a incluir los zapatos, los adornos y el bolso. ',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Trendsetter',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'persona que pone de moda una manera de vestir o una prenda. ',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Trendy',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'dicho de una persona, de un estilo o una prenda de vestir: a la última, moderna. ',
+    },
+    {
+      termino: 'Vintage',
+      significado:
+        'tendencia estética que consiste en rescatar prendas u objetos diseñados o fabricados en las épocas en las que estaban de moda. Suele aplicarse también a las propias prendas y objetos de grandes diseñadores que se conservan en buen estado, por lo que siguen teniendo un alto valor económico. ',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'SENA. (2020). Fundamentación de moda.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo1_Fundamentacion_Moda.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'SENA. (2020). Universos del vestuario. Gamas de mercado. Ocasiones de uso.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo2_Universos_Vestuarios_Ocasiones_Uso.pdf',
+    },
+    {
+      texto: 'SENA. (2020). Perfiles del consumidor.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo3_Perfil_Consumidor.pdf',
+    },
+    {
+      texto: 'SENA. (2020). Moodboard. Tableros creativos.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo4_Moodboard_Tableros_Creativos.pdf',
+    },
+    {
+      texto: 'SENA. (2020). Tendencias de moda.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo5_Tendencias_Moda.pdf',
+    },
+    {
+      texto: 'SENA. (2020). Identificación de fibras.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo6_IdentificacionFibras.pdf',
+    },
+    {
+      texto: 'SENA. (2020). Fibras textiles.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo7_Clasificacion_Fibras_Textiles.pdf',
+    },
+    {
+      texto: 'SENA. (2020). Los textiles.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo8_Los_Tejidos.pdf',
+    },
+    {
+      texto: 'SENA. (2020). Caracterización de los textiles.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo9_Caracterizacion_Textiles.pdf',
+    },
+    {
+      texto: 'SENA. (2020). Los acabados y procesos textiles.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo10_Acabado_Procesos_Textiles.pdf',
+    },
+    {
+      texto: 'SENA. (2020). Categorías de prendas.',
+      tipo: 'PDF con presentación.',
+      descarga: '/downloads/CF2_Anexo11_Categorias_Prendas.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Simmel, G. (1904). Fashion. The American Journal of Sociology, 65(6), 541-558.',
+      tipo: 'Artículo de lectura',
+      link:
+        'https://sites.middlebury.edu/individualandthesociety/files/2010/09/Simmel.fashion.pdf ',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        'Dearing, J. W. (2009). Applying Diffusion of Innovation Theory to Intervention Development. Research on Social Work Practice, 19(5), 503–518. ',
+      tipo: 'Artículo de lectura',
+      link: 'https://doi.org/10.1177/1049731509335569 ',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto:
+        'King, W. (1965). Fashion Adoption: a Rebuttal to the Trickle Down Theory. Appleton-Century-Crofts.',
+      tipo: 'Artículo de lectura',
+      link:
+        'https://www.econbiz.de/Record/fashion-adoption-a-rebuttal-to-the-trickle-down-theory-king-charles/10002208542 ',
     },
   ],
 }

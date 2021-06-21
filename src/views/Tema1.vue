@@ -87,19 +87,20 @@
     #t_1_5.titulo-segundo
       h2 1.5 Clasificación de universos de vestuario
 
+    p.mb-4 Dentro de la clasificación de los universos de vestuario se pueden encontrar cuatro (4) grupos distribuidos en subgrupos de la siguiente manera: 
     
-      div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 1. Gala y formal")
-        h3.text-center Grupo 1. Gala y formal
-        SlyderB(:datos="datosSlyderGalayformal")
-      div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 2. Casual")
-        h3.text-center Grupo 2. Casual
-        SlyderB(:datos="datosSlyderCasual")
-      div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 3. Informal")
-        h3.text-center Grupo 3. Informal
-        SlyderB(:datos="datosSlyderInformal")
-      div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 4. Intima")
-        h3.text-center Grupo 4. Intima
-        SlyderB(:datos="datosSlyderIntima")
+    div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 1. Gala y formal")
+      h3.text-center Grupo 1. Gala y formal
+      SlyderB(:datos="datosSlyderGalayformal")
+    div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 2. Casual")
+      h3.text-center Grupo 2. Casual
+      SlyderB(:datos="datosSlyderCasual")
+    div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 3. Informal")
+      h3.text-center Grupo 3. Informal
+      SlyderB(:datos="datosSlyderInformal")
+    div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 4. Intima")
+      h3.text-center Grupo 4. Intima
+      SlyderB(:datos="datosSlyderIntima")
 
     hr
     .row
@@ -111,7 +112,7 @@
           h3 Ocasiones de uso
           p Contempla los distintos escenarios en los que una persona viste una prenda, esto permite que en los universos de vestuarios se permita segmentar aún más el producto. Dentro de estas ocasiones de uso se encuentra, protocolario (formal), multiocasión, informal y complementos. Para tener mayor claridad en la correspondencia de las ocasiones de uso con universos del vestuario, se debe tener presente el siguiente esquema:
       .col-7.d-flex.align-items-center.justify-content-center
-        .tabla-a.color-acento-botones
+        .tabla-a.color-acento-contenido
           table           
             thead
               tr
@@ -164,7 +165,7 @@
                   ul.lista-ul--color
                     li 
                       i.far.fa-dot-circle
-                      | Le importan las tradiciones de acuerdo con el evento
+                      | Le importan las tradiciones de acuerdo con el evento.
                     li 
                       i.far.fa-dot-circle
                       | Conservador de las normas y de la etiqueta en el vestuario.
@@ -175,7 +176,7 @@
               .col-1
               .col-3
                 figure
-                  img(src='@/assets/curso/tema1/img32.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/img32.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
           .py-4.py-md-5(titulo="Consumidor neotradicional" :icono="require('@/assets/curso/tema1/img28.svg')")
             .row
@@ -195,10 +196,10 @@
                               
               .col-6
                 figure
-                  img(src='@/assets/curso/tema1/img33.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/img33.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
           .py-4.py-md-5(titulo="Consumidor contemporáneo" :icono="require('@/assets/curso/tema1/img29.svg')")
             .row
-              .col-6.ps-4.pt-3
+              .col-7.ps-4.pt-3
                 p Surge de avances y cambios a nivel social y cultural, dinámicos, apasionados por conocer cosas nuevas, viajar y estar a la vanguardia de todos los sucesos a nivel nacional y mundial, se considera un explorador y tiene gran tolerancia por diferentes formas de pensamientos y creencias. Las cuales conservan las siguientes características:
                 div.ps-5
                   ul.lista-ul--color
@@ -213,13 +214,13 @@
                       | Dinámico, intenso y con múltiples actividades profesionales y culturales.    
              
               .col-1
-              .col-4.d-flex.align-items-center.justify-content-center
-                figure
-                  img(src='@/assets/curso/tema1/img34.png', alt='Texto que describa la imagen')
+              .col-3
+                figure( style='object-fit: none')
+                  img(src='@/assets/curso/tema1/img34.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
           .py-4.py-md-5(titulo="Consumidor vanguardista" :icono="require('@/assets/curso/tema1/img30.svg')")
             .row
-              .col-6.ps-4.pt-3
+              .col-7.ps-4.pt-3
                 p Es un destacado grupo social, inconformista, vanguardista y amante de la originalidad y autenticidad del ser. Genera cambios y origina nuevos conceptos, innovador, rompe esquemas y paradigmas en su entorno influyendo en la creación de nuevas tendencias. Por lo general tiene gran capacidad adquisitiva. Las cuales conservan las siguientes características:
                 div.ps-5
                   ul.lista-ul--color
@@ -233,13 +234,13 @@
                       i.far.fa-dot-circle
                       | Investigador y con gran pensamiento crítico.             
               .col-1
-              .col-4.d-flex.align-items-center.justify-content-center
+              .col-3
                 figure
-                  img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
           .py-4.py-md-5(titulo="Consumidor exhibicionista" :icono="require('@/assets/curso/tema1/img31.svg')")
             .row
-              .col-6.ps-4.pt-3
+              .col-7.ps-4.pt-3
                 p Una persona con gran necesidad de destacarse y llamar la atención para verse distinto a los demás, con gran sensibilidad hacia nuevos conceptos de moda, posee un estilo ecléctico, es decir no se identifica con uno en particular. Las cuales conservan las siguientes características:
                 div.ps-5
                   ul.lista-ul--color
@@ -253,9 +254,9 @@
                       i.far.fa-dot-circle
                       | En búsqueda de proyectar una imagen nueva siempre, para no parecerse a los demás.            
               .col-1
-              .col-4.d-flex.align-items-center.justify-content-center
+              .col-3
                 figure
-                  img(src='@/assets/curso/tema1/img36.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/img36.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
     hr
     p.mb-4 De otra parte, identificar los tipos clientes mejora la atención que se les brinda, dado que no todos se comportan igual ni tienen la misma velocidad en la decisión de compra y esto, si no logra abordar estratégicamente, puede afectar la venta de un producto, es por ello que se debe iniciar por tener claro cómo entender el cliente. Por ello, a continuación, se relacionan diferentes recursos que ofrecen un recorrido desde su definición y los tipos y el servicio al cliente. 
@@ -299,7 +300,7 @@ export default {
       {
         titulo: 'Nota. Tomada de Mujer (2020)',
         imagen: require('@/assets/curso/tema1/img02.png'),
-        leyendaImagen: 'Figura 2. La moda y la decoración de espaciosn',
+        leyendaImagen: 'Figura 2. La moda y la decoración de espacios',
       },
       {
         titulo: 'Nota. Tomada de Frogx3 (2021)',

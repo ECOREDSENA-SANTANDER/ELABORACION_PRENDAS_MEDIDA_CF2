@@ -25,6 +25,7 @@
             i Fibras textiles   
         figure
           img(src='@/assets/curso/tema4/img02.svg', alt='Texto que describa la imagen')
+          figcaption Nota. Tomada de Pinterest(2021)
       .col-1
 
     #t_4_2.titulo-segundo
@@ -72,7 +73,7 @@
 
     .tabla-b.color-acento-contenido.mb-5      
       table.sin-fondo.border
-        caption Nota. Tomada del rincón de celestecielo (2015)
+        caption Tomada de: el rincón de celestecielo (2015)
         tr.sin-fondo.border
           th.fondo-color-acento-contenido.texto-blanco.border.text-center(rowspan=6) 
             h4 Fibras químicas
@@ -197,7 +198,7 @@
           
     p.mb-4 Las caracterizaciones de los textiles se organizan en función de su comportamiento, están relacionadas con el peso del material desde su estructura, fluidez, expansión y comprensión; a continuación, se relacionan los aspectos más relevantes de cada una.
      
-    TabsA.color-acento-contenido.mb-4
+    TabsA.otrotab.color-acento-contenido.mb-4
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
@@ -237,12 +238,14 @@
         figure.mb-4.px-4
           img(src='@/assets/curso/tema4/img10.png', alt='Texto que describa la imagen')
         
-    p.mb-4 <b>Procesos textiles: </b>los procesos textiles hacen referencia al proceso realizado sobre la fibra, el hilo, la tela o la prenda con el fin de modificar alguna de sus características como la apariencia, el tacto y el comportamiento. Siendo así, los procesos tienen gran importancia para los acabados textiles puesto que permiten eliminar o minimizar algunas cualidades que no se desean como parte del producto final ya sea en apariencia, tacto o comportamiento, por lo anterior se tienen en cuenta ciertos tipos de operaciones, entre los cuales están:
+    br
+    br
+    p.mb-4 <b style="font-size:20px">Procesos textiles: </b>los procesos textiles hacen referencia al proceso realizado sobre la fibra, el hilo, la tela o la prenda con el fin de modificar alguna de sus características como la apariencia, el tacto y el comportamiento. Siendo así, los procesos tienen gran importancia para los acabados textiles puesto que permiten eliminar o minimizar algunas cualidades que no se desean como parte del producto final ya sea en apariencia, tacto o comportamiento, por lo anterior se tienen en cuenta ciertos tipos de operaciones, entre los cuales están:
     .row.mb-4
       .col-1
       .col-6.d-flex.align-items-center
         div
-          .row.mb-4
+          .row.mb-4.pt-4.pb-0(style="border-top: 2px solid #F8F5E5; ")
             .col-2.d-flex.align-items-center
               figure
                 img(src='@/assets/curso/tema4/img11.svg', alt='Texto que describa la imagen')
@@ -250,7 +253,7 @@
               div
                 h4 Aprestos
                 p Es cuando los efectos se consiguen a partir de productos o bases químicas aplicadas al textil, logrando aspectos como rigidez, estabilidad, tactosidad, antifluido, peso del textil.
-          .row
+          .row.pt-4.pb-2(style="border-top: 2px solid #F8F5E5; border-bottom: 2px solid #F8F5E5;")
             .col-2.d-flex.align-items-center
               figure
                 img(src='@/assets/curso/tema4/img12.svg', alt='Texto que describa la imagen')
@@ -311,7 +314,7 @@
             h4 Renovable
           td.border Puede renovarse en el hogar o necesita de tintorería.
 
-    p.text-center.mb-4 Dentro de esta clasificación se encuentran cuatro (4) procesos a tener en cuenta y dependiendo del acabado que se quiera lograr:
+    p.text-center.mb-4 <b>Dentro de esta clasificación se encuentran cuatro (4) procesos a tener en cuenta y dependiendo del acabado que se quiera lograr:</b>
     
     .titulo-quinto.color-acento-contenido
       div
@@ -323,13 +326,13 @@
         figure
           img(src='@/assets/curso/tema4/img14.svg', alt='Texto que describa la imagen')
       .col-2
-
+    br
     .row.mb-4
       .col-1
-      .col-1.d-flex.align-items-center.justify-content-center
+      .col-1.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
         figure.w-75
           img(src='@/assets/curso/tema4/img15.svg', alt='Texto que describa la imagen')
-      .col-9.d-flex.align-items-cente
+      .col-9.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
         .div
           h3 Limpieza
           ul.lista-ul--color
@@ -346,10 +349,10 @@
 
     .row.mb-4
       .col-1
-      .col-1.d-flex.align-items-center.justify-content-center
+      .col-1.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
         figure.w-75
           img(src='@/assets/curso/tema4/img16.svg', alt='Texto que describa la imagen')
-      .col-9.d-flex.align-items-cente
+      .col-9.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
         .div
           h3 Diseño y color
           p Referente al uso de tintes en los textiles y que permean las fibras de la tela o hilo como teñido de fibras, hilos, o directamente sobre el textil o en piezas ya hechas. En diseño se encuentran técnicas de estampado para generar grafías en los textiles entre los cuales están el rotativo, serigrafía, sublimación, transfer y digital.
@@ -381,10 +384,10 @@
 
     .row.mb-4
       .col-1
-      .col-1.d-flex.align-items-center.justify-content-center
+      .col-1.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
         figure.w-75
           img(src='@/assets/curso/tema4/img19.svg', alt='Texto que describa la imagen')
-      .col-9.d-flex.align-items-cente
+      .col-9.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
         .div
           h3 Textura
           p Para generar acabados que al tacto juegue con las sensaciones (terciopelo, afelpados, glaseado, satinados, mercerizados, reducción de brillos, grabados, gofrados moiré, entre otros).
@@ -404,10 +407,10 @@
     
     .row.mb-4
       .col-1
-      .col-1.d-flex.align-items-center.justify-content-center
+      .col-1.d-flex.align-items-center.justify-content-center.py-3(style="border-top: 2px solid #F8F5E5; ")
         figure.w-75
           img(src='@/assets/curso/tema4/img21.svg', alt='Texto que describa la imagen')
-      .col-9.d-flex.align-items-cente
+      .col-9.d-flex.align-items-center.py-3(style="border-top: 2px solid #F8F5E5; ")
         .div
           h3 Desempeño
           p Utilizado para mejorar el desempeño y la utilidad del textil, entre estos se encuentran la resistencia a pliegues y arrugas, planchado durable, repelentes al agua, control de encogimiento y resistencia a la suciedad, antiestática, antibacterial, resistencia a polillas, al moho e ignición retardada. En la siguiente figura se podrá apreciar el proceso general de los textiles.

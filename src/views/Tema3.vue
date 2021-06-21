@@ -36,7 +36,7 @@
           .anexo__texto
             strong Anexo.
             | Cuadro metamórfico.
-            p Conocer cómo se logra variedad de diseños rápidamente, facilita la realización de evoluciones y modificaciones de diseño en una colección sin que se pierda la coherencia concept
+            p Conocer cómo se logra variedad de diseños rápidamente, facilita la realización de evoluciones y modificaciones de diseño en una colección sin que se pierda la coherencia conceptual.
 
       .col-2
 
