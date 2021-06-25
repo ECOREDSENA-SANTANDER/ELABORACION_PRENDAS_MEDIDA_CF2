@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Inicio from '../../node_modules/ecored-base-pkg/src/views/Inicio.vue'
 import Curso from '../../node_modules/ecored-base-pkg/src/views/Curso.vue'
+import SlyderTitulo from '../components/SlyderTitulo.vue'
 
 Vue.use(VueRouter)
 

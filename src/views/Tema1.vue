@@ -45,7 +45,7 @@
     p.mb-4.text-center A partir de la anterior imagen se puede constatar lo siguiente:
     h2.mb-4.text-center Gamas de mercado en el sistema moda
 
-    SlyderB#slyder1.mb-4(:datos="datosSlyder2")
+    SlyderTitulo#slyder1.mb-4(:datos="datosSlyder2")
 
     .cajon.color-primario.fondo-a.mb-5.p-4
       p Actualmente esta línea ha hecho impulsar fenómenos como el Slow Fashion en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
@@ -288,8 +288,12 @@
 </template>
 
 <script>
+import SlyderTitulo from '../components/SlyderTitulo'
 export default {
   name: 'Tema1',
+  components: {
+    SlyderTitulo,
+  },
   data: () => ({
     datosSlyder: [
       {
@@ -311,6 +315,7 @@ export default {
     datosSlyder2: [
       {
         titulo: 'Alta costura o haute couture',
+        tituloImg: 'Diseño de alta costura',
         texto:
           'Son prendas exclusivas hechas a la medida del cliente, de manera artesanal y con un estricto proceso de calidad. La alta costura tiene su propio centro llamado Cámara Sindical de Alta Costura, y solo aquel que logra pertenecer a ella y velar por el estricto cumplimiento del paso a paso en la elaboración de prendas puede llamarse como diseñador de alta costura; este gremio fue creado, inicialmente, por Alfred Frederick Worth.',
         imagen: require('@/assets/curso/tema1/img05.png'),
@@ -318,6 +323,7 @@ export default {
       },
       {
         titulo: 'Listo para llevar o prêt-à-porter',
+        tituloImg: 'Diseño prêt-à-porter',
         texto:
           'Son prendas producidas en serie con patrones que se repiten, estas siguen las tendencias y elementos que se dan en la alta costura, permitiendo la industrialización en serie de la moda. Las colecciones son presentadas por diferentes casas de moda en espacios conocidos como Semanas de la moda o Fashion Week, esto porque gozan de cierta exclusividad debido a sus precios elevados.',
         imagen: require('@/assets/curso/tema1/img06.png'),
@@ -325,6 +331,7 @@ export default {
       },
       {
         titulo: 'Marcas diferencias o moda comercial',
+        tituloImg: 'Diseño según el Midi Couture',
         texto:
           'Esta línea se maneja dentro de lo que ahora se llama midi couture, que permite generar prendas no tan costosas empleando textiles con bordados fabricados industrialmente, esto hace que sean menos costosas. Se centra en la industrialización de procesos, además porque manejan una comunicación de moda más cercana a todas las personas.',
         imagen: require('@/assets/curso/tema1/img07.png'),
@@ -332,6 +339,7 @@ export default {
       },
       {
         titulo: 'Pronta moda o Fast Fashion',
+        tituloImg: 'Representación del Fast Fashion',
         texto:
           'Gama que se produce para las masas a precios muy bajos. Utiliza materiales de baja calidad dado que necesitan producir a una escala gigante para circular sus productos, en este modelo se contempla la producción de series cortas basadas en tendencias del momento. Al ser de baja calidad genera que el producto tenga un ciclo de vida corto, por tanto, se desecha por el consumidor muy rápido y esto es lo que produce que el consumidor vuelva a comprar, de ahí que se contemple como Fast Fashion.',
         imagen: require('@/assets/curso/tema1/img08.png'),
@@ -339,6 +347,7 @@ export default {
       },
       {
         titulo: 'Moda lenta o Slow Fashion',
+        tituloImg: 'Representación Slow Fashion en producto',
         texto:
           'Posee una filosofía de consumo responsable porque permite concienciar sobre el impacto de las vestir en el medioambiente, el agotamiento de recursos y la huella que está dejando la industria textil en la sociedad; está contemplada bajo modelos de sostenibilidad. También dentro de las gamas se pueden encontrar otros fenómenos surgidos dentro de las líneas mencionadas anteriormente como: moda circular, moda ética, moda ecológica y moda vegana.',
         imagen: require('@/assets/curso/tema1/img09.png'),
