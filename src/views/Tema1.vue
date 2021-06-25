@@ -23,7 +23,7 @@
           p.mb-4 En relación con la cultura se puede entender esta como un concepto que abarca diversas manifestaciones del ser humano, además de ser un sistema de creencias y costumbres desarrolladas por un grupo, comunidad y sociedad en la que se integran símbolos y significados que le permiten a una persona sentirse parte de un grupo (ciudad, región, país).
           p Las siguientes imágenes pueden dar una visión integrada de la moda y sus tendencias en los escenarios del sistema moda, situando la moda en el campo del arte. 
       .col-6.d-flex.align-items-center
-        SlyderC.mb-5(:datos="datosSlyder")
+        SlyderCTitulo.mb-5(:datos="datosSlyder")
 
     div.mb-5.d-flex.justify-content-center
       img(src='@/assets/curso/separador.svg', style="object-fit: none")
@@ -45,7 +45,7 @@
     p.mb-4.text-center A partir de la anterior imagen se puede constatar lo siguiente:
     h2.mb-4.text-center Gamas de mercado en el sistema moda
 
-    SlyderTitulo#slyder1.mb-4(:datos="datosSlyder2")
+    SlyderBTitulo.mb-4(:datos="datosSlyder2")
 
     .cajon.color-primario.fondo-a.mb-5.p-4
       p Actualmente esta línea ha hecho impulsar fenómenos como el Slow Fashion en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
@@ -288,28 +288,30 @@
 </template>
 
 <script>
-import SlyderTitulo from '../components/SlyderTitulo'
+import SlyderBTitulo from '../components/SlyderBTitulo'
+import SlyderCTitulo from '../components/SlyderCTitulo'
 export default {
   name: 'Tema1',
   components: {
-    SlyderTitulo,
+    SlyderBTitulo,
+    SlyderCTitulo,
   },
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'Nota. Tomada de PlayBoy (2020)',
+        titulo: 'Moda y arte, inspirada en Mondrian',
         imagen: require('@/assets/curso/tema1/img01.png'),
-        leyendaImagen: 'Figura 1. Moda y arte, inspirada en Mondrian',
+        leyendaImagen: 'Nota. Tomada de PlayBoya (2020) ',
       },
       {
-        titulo: 'Nota. Tomada de Mujer (2020)',
+        titulo: 'La moda y la decoración de espacios',
         imagen: require('@/assets/curso/tema1/img02.png'),
-        leyendaImagen: 'Figura 2. La moda y la decoración de espacios',
+        leyendaImagen: 'Nota. Tomada de Mujer (2020)',
       },
       {
-        titulo: 'Nota. Tomada de Frogx3 (2021)',
+        titulo: 'Moda y gastronomía',
         imagen: require('@/assets/curso/tema1/img03.png'),
-        leyendaImagen: 'Figura 3. Moda y gastronomía',
+        leyendaImagen: 'Nota. Tomada de Frogx3 (2021)',
       },
     ],
     datosSlyder2: [

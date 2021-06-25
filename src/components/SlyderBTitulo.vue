@@ -39,7 +39,7 @@
 import slyderMixins from '../../node_modules/ecored-base-pkg/src/mixins/slyderMixins'
 import ScrollHorizontal from '../../node_modules/ecored-base-pkg/src/components/plantilla/ScrollHorizontal'
 export default {
-  name: 'SlyderTitulo',
+  name: 'SlyderBTitulo',
   components: { ScrollHorizontal },
   mixins: [slyderMixins],
   data: () => ({
