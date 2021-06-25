@@ -18,12 +18,9 @@
     
     .row.mb-5
       .col-1
-      .col-10
-        .titulo-quinto.color-acento-contenido
-          div
-            h4.mb-0.px-5 Figura 15
-            i Fibras textiles   
+      .col-10          
         figure
+          p.BorTit Fibras textiles 
           img(src='@/assets/curso/tema4/img02.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Pinterest(2021)
       .col-1
@@ -33,11 +30,7 @@
 
     p.mb-4 Las fibras se clasifican, según su origen, en dos grandes grupos, las naturales y químicas y estas a su vez se subdividen en otros; en la siguiente tabla se observa esta clasificación.
     
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0.px-5 Tabla 2
-        i Clasificación de las fibras  
-    
+    p.BorTit Clasificación de las fibras
     .tabla-b.color-acento-contenido.mb-1     
       table.sin-fondo.border        
         tr.sin-fondo.border
@@ -107,13 +100,9 @@
 
     .row.mb-5
       .col-3
-      .col-6
-        .titulo-quinto.color-acento-contenido
-          div
-            h4.mb-0.px-5 Figura 16
-            i Hilaturas
-
+      .col-6       
         figure
+          p.BorTit Hilaturas
           img(src='@/assets/curso/tema4/img03.png', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Pinterest (2021).
       .col-3
@@ -123,11 +112,7 @@
 
     p.mb-4 Es el manufacturado de fibras o hilos que tienen una relación sustancial entre su longitud, área y su espesor con suficiente resistencia mecánica para otorgarle una cohesión. Los tejidos tienen una clasificación que se da en dos grupos, tejidos planos y de punto, también se contemplan aquellas no tejidas en las que diversas técnicas a nivel tecnológico permiten su impresión, en el siguiente esquema permite observar esta clasificación:
 
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0.px-5 Tabla 3
-        i Clasificación de tejidos
-
+    p.BorTit Clasificación de tejidos
     .tabla-b.color-acento-contenido.mb-1     
       table.sin-fondo.border        
         tr.sin-fondo.border
@@ -271,12 +256,8 @@
       .col-10
         p Estos dos procesos pueden llegar a combinarse y siempre dependerá de la idea inicial que se tenga respecto a la prenda que se pretende realizar.
       .col-1
-    
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0.px-5 Tabla 4
-        i Clasificación de los acabados
-
+ 
+    p.BorTit Clasificación de los acabados
     .tabla-b.color-acento-contenido.mb-1     
       table.sin-fondo.border        
         tr.sin-fondo.border
@@ -315,15 +296,12 @@
           td.border Puede renovarse en el hogar o necesita de tintorería.
 
     p.text-center.mb-4 <b>Dentro de esta clasificación se encuentran cuatro (4) procesos a tener en cuenta y dependiendo del acabado que se quiera lograr:</b>
-    
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0 Figura 17
-        i Procesos generales para los acabados textiles
+     
     .row.mb-4
       .col-2
       .col-8
         figure
+          p.BorTit Procesos generales para los acabados textiles
           img(src='@/assets/curso/tema4/img14.png', alt='Texto que describa la imagen')
       .col-2
     br
@@ -358,27 +336,19 @@
           p Referente al uso de tintes en los textiles y que permean las fibras de la tela o hilo como teñido de fibras, hilos, o directamente sobre el textil o en piezas ya hechas. En diseño se encuentran técnicas de estampado para generar grafías en los textiles entre los cuales están el rotativo, serigrafía, sublimación, transfer y digital.
     .col-1
 
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0 Figura 18
-        i Métodos de diseño y color en textiles
-
     .row.mb-4
       .col-2
       .col-8.d-flex.align-items-center.justify-content-center
         figure.w-75
+          p.BorTit Métodos de diseño y color en textiles
           img(src='@/assets/curso/tema4/img17.svg', alt='Texto que describa la imagen')
       .col-2
 
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0 Figura 19
-        i Estampados en los textiles
-
     .row.mb-4
       .col-2
       .col-8.d-flex.align-items-center.justify-content-center
         figure.w-75
+          p.BorTit Estampados en los textiles
           img(src='@/assets/curso/tema4/img18.svg', alt='Texto que describa la imagen')
       .col-2
 
@@ -393,15 +363,11 @@
           p Para generar acabados que al tacto juegue con las sensaciones (terciopelo, afelpados, glaseado, satinados, mercerizados, reducción de brillos, grabados, gofrados moiré, entre otros).
     .col-1
 
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0 Figura 20
-        i Textura en los textiles
-
     .row.mb-4
       .col-2
       .col-8
         figure
+          p.BorTit Textura en los textiles
           img(src='@/assets/curso/tema4/img20.svg', alt='Texto que describa la imagen')
       .col-2
     
@@ -416,15 +382,11 @@
           p Utilizado para mejorar el desempeño y la utilidad del textil, entre estos se encuentran la resistencia a pliegues y arrugas, planchado durable, repelentes al agua, control de encogimiento y resistencia a la suciedad, antiestática, antibacterial, resistencia a polillas, al moho e ignición retardada. En la siguiente figura se podrá apreciar el proceso general de los textiles.
     .col-1
 
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0 Figura 21
-        i Proceso general de textiles
-
     .row.mb-4
       .col-3
       .col-6
         figure
+          p.BorTit Proceso general de textiles
           img(src='@/assets/curso/tema4/img22.svg', alt='Texto que describa la imagen')
       .col-3
     

@@ -9,15 +9,12 @@
       h1 Tipologías de prendas   
 
     p.mb-4 Una tipología es el estudio de los tipos o modelos que se usan para clasificar diversos elementos; en lo referente a la moda, las tipologías de prendas permitirán basarse en la división del cuerpo para prendas inferiores y prendas superiores tal como se observa en la siguiente imagen.  
-
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0.px-5 Figura 10
-        i Figurín
+    
     .row.mb-4
       .col-2
       .col-8
         figure
+          p.BorTit Figurín
           img(src='@/assets/curso/tema2/img09.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Pinterest (2021).
       .col-2
@@ -56,19 +53,13 @@
 
 
     .row.mb-4
-      .col-4
-        .titulo-quinto.color-acento-contenido
-          div
-            h4.mb-0.px-5 Figura 11
-            i Cuadro metamórfico
+      .col-4        
         figure
+          p.BorTit Cuadro metamórfico
           img(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
-      .col-8
-        .titulo-quinto.color-acento-contenido
-          div
-            h4.mb-0.px-5 Figura 12
-            i Prendas por separado
+      .col-8       
         figure
+          p.BorTit Prendas por separado
           img(src='@/assets/curso/tema2/img11.png', alt='Texto que describa la imagen')
 
     p.mb-4 Una vez establecidos los tres puntos anteriores se organiza la información de las ideas utilizando un esquema tipo tabla para generar varias opciones de cada una de esas partes (estas deben estar en coherencia con lo que se pretende generar y lo que le brinde pertenencia al consumidor al cual va dirigido).
@@ -76,12 +67,9 @@
     
     .row.mb-4
       .col-3
-      .col-6
-        .titulo-quinto.color-acento-contenido
-          div
-            h4.mb-0.px-5 Figura 13
-            i Ejemplo de un cuadro metamórfico de prendas
+      .col-6        
         figure
+          p.BorTit Ejemplo de un cuadro metamórfico de prendas
           img(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')
       .col-3
     
@@ -89,12 +77,9 @@
     
     .row.mb-4
       .col-3
-      .col-6
-        .titulo-quinto.color-acento-contenido
-          div
-            h4.mb-0.px-5 Figura 14
-            i Tipología blazer
+      .col-6       
         figure
+          p.BorTit Tipología blazer
           img(src='@/assets/curso/tema2/img13.png', alt='Texto que describa la imagen')
       .col-3
     //.justify-content-center

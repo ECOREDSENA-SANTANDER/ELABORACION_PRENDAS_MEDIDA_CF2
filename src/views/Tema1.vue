@@ -16,7 +16,7 @@
 
     //.justify-content-center
     //.align-items-center
-    .row
+    .row.mb-5
       .col-6.d-flex
         div
           p.mb-4 Cuando se habla de sistema moda se concluye que la moda y las tendencias permean diversidad de áreas en las que el ser humano se desenvuelve, como el estilo de vida de un individuo, comunidad o sociedad, y dentro de estas se encuentran la gastronomía, música, política, conciencia ambiental, tecnología, estructuras familiares, arte, cosmética, cine, entre otras; por ello, es de suma importancia comprender y leer la moda de manera integral y no aislada en el vestuario y relacionándola directa y contextualmente con la cultura.
@@ -25,22 +25,19 @@
       .col-6.d-flex.align-items-center
         SlyderC.mb-5(:datos="datosSlyder")
 
-    .separador
-
+    div.mb-5.d-flex.justify-content-center
+      img(src='@/assets/curso/separador.svg', style="object-fit: none")
+  
     #t_1_2.titulo-segundo
       h2 1.2 Gamas de mercado en el sistema moda
     
     p.mb-4 Así como el sistema moda contempla áreas, esta también se clasifica de acuerdo con gamas o líneas de mercado dentro del sector de la moda; esta clasificación se puede observar en el siguiente esquema:
-    
-    .titulo-quinto.color-acento-contenido
-      div
-        h4.mb-0 Figura 4
-        i Sistema de la moda en el mundo
-
+        
     .row.mb-4
       .col-2
       .col-8
         figure
+          p.BorTit Sistema de la moda en el mundo
           img(src='@/assets/curso/tema1/img04.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Inexmoda (2021).
       .col-2
@@ -50,29 +47,31 @@
 
     SlyderB.mb-4(:datos="datosSlyder2")
 
-    .cajon.color-primario.fondo-a.p-4
+    .cajon.color-primario.fondo-a.mb-5.p-4
       p Actualmente esta línea ha hecho impulsar fenómenos como el Slow Fashion en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
 
-    .separador
+    div.mb-5.d-flex.justify-content-center
+      img(src='@/assets/curso/separador.svg', style="object-fit: none")
 
     #t_1_3.titulo-segundo
       h2 1.3 Factores que influyen en la moda
 
     p.mb-4 Se ha mencionado que la moda se contempla como sistema, que la cultura está intrínsecamente relacionada con ella y que las diferentes gamas de mercado hacen surgir otras, todas siempre marcadas por el consumidor; teniendo en cuenta esto, los factores que posibilitan todo este evolucionar en la moda son los siguientes y permiten dar respuesta a: ¿por qué vestirse? 
 
-    .row
+    .row.mb-5
       .col-1
       .col-10
         figure
           img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen')
       .col-1
 
-    .separador
+    div.mb-5.d-flex.justify-content-center
+      img(src='@/assets/curso/separador.svg', style="object-fit: none")
 
     #t_1_4.titulo-segundo
       h2 1.4 Universos de vestuario
   
-    .row
+    .row.mb-5
       .col-8.d-flex.align-items-center
         .row.py-3.ps-3.relativo1.borde-redondo.fondo-color-primario
           .col-11
@@ -82,7 +81,8 @@
         figure
           img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
 
-    .separador
+    div.mb-5.d-flex.justify-content-center
+      img(src='@/assets/curso/separador.svg', style="object-fit: none")
 
     #t_1_5.titulo-segundo
       h2 1.5 Clasificación de universos de vestuario
