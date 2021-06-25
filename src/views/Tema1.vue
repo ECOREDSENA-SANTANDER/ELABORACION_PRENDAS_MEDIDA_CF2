@@ -45,7 +45,7 @@
     p.mb-4.text-center A partir de la anterior imagen se puede constatar lo siguiente:
     h2.mb-4.text-center Gamas de mercado en el sistema moda
 
-    SlyderB.mb-4(:datos="datosSlyder2")
+    SlyderB#slyder1.mb-4(:datos="datosSlyder2")
 
     .cajon.color-primario.fondo-a.mb-5.p-4
       p Actualmente esta línea ha hecho impulsar fenómenos como el Slow Fashion en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
