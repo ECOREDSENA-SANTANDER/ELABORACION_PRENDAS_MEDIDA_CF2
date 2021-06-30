@@ -14,7 +14,9 @@
       .col-2
       .col-8
         figure
-          p.BorTit Figurín
+          p.BorTit 
+            b Figura 10. 
+            | Figurín
           img(src='@/assets/curso/tema2/img09.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Pinterest (2021).
       .col-2
@@ -37,6 +39,16 @@
 
       .col-2
 
+    .row.mb-5
+      .col-4  
+      .col-4        
+        figure
+          p.BorTit 
+            b Figura 11. 
+            | Cuadro metamórfico
+          img(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
+      .col-4
+
     p.mb-4 Para conocer las bases del cuadro metamórfico se debe: 
 
     div.mb-4.px-5
@@ -51,16 +63,15 @@
             i.far.fa-dot-circle            
             | Visualizar las partes de las prendas por separado, por ejemplo, de la camisa, el cuello, la botonera, la manga, el puño, los bolsillos y así sucesivamente con las prendas a trabajar, este punto es importantísimo.
 
-
     .row.mb-4
-      .col-4        
-        figure
-          p.BorTit Cuadro metamórfico
-          img(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
+      .col-2
       .col-8       
         figure
-          p.BorTit Prendas por separado
+          p.BorTit 
+            b Figura 12.
+            | Prendas por separado
           img(src='@/assets/curso/tema2/img11.png', alt='Texto que describa la imagen')
+      .col-2
 
     p.mb-4 Una vez establecidos los tres puntos anteriores se organiza la información de las ideas utilizando un esquema tipo tabla para generar varias opciones de cada una de esas partes (estas deben estar en coherencia con lo que se pretende generar y lo que le brinde pertenencia al consumidor al cual va dirigido).
 
@@ -69,7 +80,9 @@
       .col-3
       .col-6        
         figure
-          p.BorTit Ejemplo de un cuadro metamórfico de prendas
+          p.BorTit 
+            b Figura 13. 
+            | Ejemplo de un cuadro metamórfico de prendas
           img(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')
       .col-3
     
@@ -79,7 +92,9 @@
       .col-3
       .col-6       
         figure
-          p.BorTit Tipología blazer
+          p.BorTit 
+            b Figura 14. 
+            | Tipología blazer
           img(src='@/assets/curso/tema2/img13.png', alt='Texto que describa la imagen')
       .col-3
     //.justify-content-center

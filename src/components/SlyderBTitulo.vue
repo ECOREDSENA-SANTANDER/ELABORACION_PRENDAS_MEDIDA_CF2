@@ -13,7 +13,9 @@
             .col-2
             .col-8
               figure.slyder-b__img
-                p.BorTit {{item.tituloImg}}
+                p.BorTit 
+                  b {{item.figura}}
+                  | {{item.tituloImg}}
                 img(:src='item.imagen', :alt='item.leyendaImagen')                
             .col-2
             figcaption.ms-0(v-if="item.leyendaImagen") {{item.leyendaImagen}}

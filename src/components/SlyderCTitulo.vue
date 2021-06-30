@@ -8,7 +8,9 @@
     )
       .slyder-c__imagen.mb-4
         figure.slyder-c__img
-          p.BorTit {{item.titulo}}
+          p.BorTit 
+            b {{item.figura}} 
+            | {{item.titulo}}
           img(:src='item.imagen', :alt='item.leyendaImagen')
           figcaption(v-if="item.leyendaImagen") {{item.leyendaImagen}}
       .slyder-c__content

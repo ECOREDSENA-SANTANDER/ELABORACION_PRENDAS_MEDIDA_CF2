@@ -37,7 +37,9 @@
       .col-2
       .col-8
         figure
-          p.BorTit Sistema de la moda en el mundo
+          p.BorTit 
+            b Figura 4. 
+            | Sistema de la moda en el mundo
           img(src='@/assets/curso/tema1/img04.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Inexmoda (2021).
       .col-2
@@ -299,16 +301,19 @@ export default {
   data: () => ({
     datosSlyder: [
       {
+        figura: 'Figura 1. ',
         titulo: 'Moda y arte, inspirada en Mondrian',
         imagen: require('@/assets/curso/tema1/img01.png'),
         leyendaImagen: 'Nota. Tomada de PlayBoya (2020) ',
       },
       {
+        figura: 'Figura 2. ',
         titulo: 'La moda y la decoración de espacios',
         imagen: require('@/assets/curso/tema1/img02.png'),
         leyendaImagen: 'Nota. Tomada de Mujer (2020)',
       },
       {
+        figura: 'Figura 3. ',
         titulo: 'Moda y gastronomía',
         imagen: require('@/assets/curso/tema1/img03.png'),
         leyendaImagen: 'Nota. Tomada de Frogx3 (2021)',
@@ -316,6 +321,7 @@ export default {
     ],
     datosSlyder2: [
       {
+        figura: 'Figura 5. ',
         titulo: 'Alta costura o haute couture',
         tituloImg: 'Diseño de alta costura',
         texto:
@@ -324,6 +330,7 @@ export default {
         leyendaImagen: 'Nota. Tomada de Hobeika (2018).',
       },
       {
+        figura: 'Figura 6. ',
         titulo: 'Listo para llevar o prêt-à-porter',
         tituloImg: 'Diseño prêt-à-porter',
         texto:
@@ -332,6 +339,7 @@ export default {
         leyendaImagen: 'Nota. Tomada de Phelps (2021)',
       },
       {
+        figura: 'Figura 7. ',
         titulo: 'Marcas diferencias o moda comercial',
         tituloImg: 'Diseño según el Midi Couture',
         texto:
@@ -340,6 +348,7 @@ export default {
         leyendaImagen: 'Nota. Tomada de Pinterest (2021)',
       },
       {
+        figura: 'Figura 8. ',
         titulo: 'Pronta moda o Fast Fashion',
         tituloImg: 'Representación del Fast Fashion',
         texto:
@@ -348,6 +357,7 @@ export default {
         leyendaImagen: 'Nota. Tomada de Pinterest (2021)',
       },
       {
+        figura: 'Figura 9. ',
         titulo: 'Moda lenta o Slow Fashion',
         tituloImg: 'Representación Slow Fashion en producto',
         texto:

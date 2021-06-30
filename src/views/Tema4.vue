@@ -20,7 +20,9 @@
       .col-1
       .col-10          
         figure
-          p.BorTit Fibras textiles 
+          p.BorTit 
+            b Figura 14. 
+            | Fibras textiles 
           img(src='@/assets/curso/tema4/img02.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Pinterest(2021)
       .col-1
@@ -30,7 +32,9 @@
 
     p.mb-4 Las fibras se clasifican, según su origen, en dos grandes grupos, las naturales y químicas y estas a su vez se subdividen en otros; en la siguiente tabla se observa esta clasificación.
     
-    p.BorTit Clasificación de las fibras
+    p.BorTit 
+      b Tabla 2. 
+      | Clasificación de las fibras
     .tabla-b.color-acento-contenido.mb-1     
       table.sin-fondo.border        
         tr.sin-fondo.border
@@ -102,7 +106,9 @@
       .col-3
       .col-6       
         figure
-          p.BorTit Hilaturas
+          p.BorTit 
+            b Figura 15. 
+            | Hilaturas
           img(src='@/assets/curso/tema4/img03.png', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Pinterest (2021).
       .col-3
@@ -112,7 +118,9 @@
 
     p.mb-4 Es el manufacturado de fibras o hilos que tienen una relación sustancial entre su longitud, área y su espesor con suficiente resistencia mecánica para otorgarle una cohesión. Los tejidos tienen una clasificación que se da en dos grupos, tejidos planos y de punto, también se contemplan aquellas no tejidas en las que diversas técnicas a nivel tecnológico permiten su impresión, en el siguiente esquema permite observar esta clasificación:
 
-    p.BorTit Clasificación de tejidos
+    p.BorTit 
+      b Tabla 3. 
+      | Clasificación de tejidos
     .tabla-b.color-acento-contenido.mb-1     
       table.sin-fondo.border        
         tr.sin-fondo.border
@@ -257,7 +265,9 @@
         p Estos dos procesos pueden llegar a combinarse y siempre dependerá de la idea inicial que se tenga respecto a la prenda que se pretende realizar.
       .col-1
  
-    p.BorTit Clasificación de los acabados
+    p.BorTit 
+      b Tabla 4. 
+      | Clasificación de los acabados
     .tabla-b.color-acento-contenido.mb-1     
       table.sin-fondo.border        
         tr.sin-fondo.border
@@ -301,7 +311,9 @@
       .col-2
       .col-8
         figure
-          p.BorTit Procesos generales para los acabados textiles
+          p.BorTit 
+            b Figura 17. 
+            | Procesos generales para los acabados textiles
           img(src='@/assets/curso/tema4/img14.png', alt='Texto que describa la imagen')
       .col-2
     br
@@ -340,7 +352,9 @@
       .col-2
       .col-8.d-flex.align-items-center.justify-content-center
         figure.w-75
-          p.BorTit Métodos de diseño y color en textiles
+          p.BorTit 
+            b Figura 18. 
+            | Métodos de diseño y color en textiles
           img(src='@/assets/curso/tema4/img17.svg', alt='Texto que describa la imagen')
       .col-2
 
@@ -348,7 +362,9 @@
       .col-2
       .col-8.d-flex.align-items-center.justify-content-center
         figure.w-75
-          p.BorTit Estampados en los textiles
+          p.BorTit 
+            b Figura 19. 
+            | Estampados en los textiles
           img(src='@/assets/curso/tema4/img18.svg', alt='Texto que describa la imagen')
       .col-2
 
@@ -367,7 +383,9 @@
       .col-2
       .col-8
         figure
-          p.BorTit Textura en los textiles
+          p.BorTit 
+            b Figura 20. 
+            | Textura en los textiles
           img(src='@/assets/curso/tema4/img20.svg', alt='Texto que describa la imagen')
       .col-2
     
@@ -386,7 +404,9 @@
       .col-3
       .col-6
         figure
-          p.BorTit Proceso general de textiles
+          p.BorTit 
+            b Figura 21. 
+            | Proceso general de textiles
           img(src='@/assets/curso/tema4/img22.svg', alt='Texto que describa la imagen')
       .col-3
     
