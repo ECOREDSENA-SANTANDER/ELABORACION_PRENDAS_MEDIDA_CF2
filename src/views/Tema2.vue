@@ -8,30 +8,6 @@
         span 2
       h1 Tendencias      
 
-    figure.mb-5
-      .video
-        iframe(width="1280" height="720" src="https://www.youtube.com/embed/zqxRNVjvi8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
-
-    .row.fondo-a.mb-5
-      .col-md-1
-      .col-md-3.py-5
-        figure
-          img(src='@/assets/curso/tema2/img14.svg', alt='Texto que describa la imagen')
-      .col-md-1
-      .col-md-6.d-flex.align-items-center
-        div
-          .titulo-segundo
-            h2 Clasificación de las tendencias de moda
-          p De acuerdo con la información anterior, las tendencias de moda se pueden clasificar en 4 grupos. 
-          a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Infografia tendencias de moda +.pdf')" target="_blank" type="application/pdf")
-            span Descargar
-            i.fas.fa-file-download
-      .col-md-1
-
-    //.justify-content-center
-    //.align-items-center
-
-    //- Desde aca comentario
     .row.mb-4
       .col-7.d-flex.align-items-center
         div
@@ -86,11 +62,15 @@
                 li 
                   i.far.fa-dot-circle
                   strong.me-1 Tecnología:
-                  | medios por los cuales se revela la información y su implementación.
-              
+                  | medios por los cuales se revela la información y su implementación.                
+    
+    figure.mb-5
+      .video
+        iframe(width="1280" height="720" src="https://www.youtube.com/embed/zqxRNVjvi8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+
     p.mb-4.text-center 
       strong De acuerdo con la información anterior, las tendencias de moda se pueden clasificar en: 
-    
+      
     TabsA.color-acento-contenido.mb-4
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -123,8 +103,29 @@
           .col-2.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img05.svg', alt='Texto que describa la imagen')
-    
+        
 
+    .row.fondo-a.mb-5
+      .col-md-1
+      .col-md-3.py-5
+        figure
+          img(src='@/assets/curso/tema2/img14.svg', alt='Texto que describa la imagen')
+      .col-md-1
+      .col-md-6.d-flex.align-items-center
+        div
+          .titulo-segundo
+            h2 Clasificación de las tendencias de moda
+          p De acuerdo con la información anterior, las tendencias de moda se pueden clasificar en 4 grupos. 
+          a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Infografia tendencias de moda +.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
+      .col-md-1
+
+    //.justify-content-center
+    //.align-items-center
+
+    //- Desde aca comentario
+    
     //- Hasta aca comentario
     p.mb-3.text-center
       strong Así, para la comprensión de la difusión de tendencias es necesario comprender las siguientes teorías:
