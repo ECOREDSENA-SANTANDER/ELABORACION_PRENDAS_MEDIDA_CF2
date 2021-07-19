@@ -31,7 +31,9 @@
             strong Anexo.
             | Perfil del consumidor.
             p Conoce la información relacionada con las prendas superiores, prendas inferiores, tipología de cuellos y complementos.
-        a.anexo.mb-1(:href="obtenerLink('/downloads/CF2_Anexo4_Moodboard_Tableros_Creativos.pdf')" target="_blank")          
+        a.anexo.mb-1(:href="obtenerLink('/downloads/CF2_Anexo4_Moodboard_Tableros_Creativos.pdf')" target="_blank")     
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")     
           .anexo__texto
             strong Anexo.
             | Cuadro metamórfico.
