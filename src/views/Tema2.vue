@@ -116,7 +116,7 @@
           .titulo-segundo
             h2 Clasificación de las tendencias de moda
           p De acuerdo con la información anterior, las tendencias de moda se pueden clasificar en 4 grupos. 
-          a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Infografia tendencias de moda +.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Infografia_tendencias_de_moda.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
       .col-md-1
