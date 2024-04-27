@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"><g transform="translate(-179 -13640)"><circle cx="30" cy="30" r="30" transform="translate(179 13640)" fill="#ff9696"/><text transform="translate(200 13650)" fill="#fff" font-size="30" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="31">A</tspan></text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Grupo_1069603" data-name="Grupo 1069603" transform="translate(-185.805 -6416)">
+    <path id="Trazado_773427" data-name="Trazado 773427" d="M30,0A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z" transform="translate(185.805 6416)" fill="#f5947a"/>
+    <path id="Trazado_773590" data-name="Trazado 773590" d="M15.234,32l-.923-3.867H8.042L7.046,32H.205L7.441,10.994h7.852L22.1,32ZM11.25,15.564H11.1a10.2,10.2,0,0,1-.205,1.157q-.176.806-1.772,6.914H13.14l-1.465-5.713A18.066,18.066,0,0,1,11.25,15.564Z" transform="translate(206.805 6426)" fill="#12263f"/>
+  </g>
+</svg>

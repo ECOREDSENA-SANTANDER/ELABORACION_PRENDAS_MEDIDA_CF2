@@ -16,44 +16,103 @@
 
     //.justify-content-center
     //.align-items-center
-    .row.mb-5
-      .col-6.d-flex
+    .row.mb-5.justify-content-center
+      .col-lg-6
         div
           p.mb-4 Cuando se habla de sistema moda se concluye que la moda y las tendencias permean diversidad de áreas en las que el ser humano se desenvuelve, como el estilo de vida de un individuo, comunidad o sociedad, y dentro de estas se encuentran la gastronomía, música, política, conciencia ambiental, tecnología, estructuras familiares, arte, cosmética, cine, entre otras; por ello, es de suma importancia comprender y leer la moda de manera integral y no aislada en el vestuario y relacionándola directa y contextualmente con la cultura.
           p.mb-4 En relación con la cultura se puede entender esta como un concepto que abarca diversas manifestaciones del ser humano, además de ser un sistema de creencias y costumbres desarrolladas por un grupo, comunidad y sociedad en la que se integran símbolos y significados que le permiten a una persona sentirse parte de un grupo (ciudad, región, país).
           p Las siguientes imágenes pueden dar una visión integrada de la moda y sus tendencias en los escenarios del sistema moda, situando la moda en el campo del arte. 
-      .col-6.d-flex.align-items-center
+      .col-lg-6
         SlyderCTitulo.mb-5(:datos="datosSlyder")
-
+    
     div.mb-5.d-flex.justify-content-center
       img(src='@/assets/curso/separador.svg', style="object-fit: none")
-  
+
     #t_1_2.titulo-segundo
       h2 1.2 Gamas de mercado en el sistema moda
     
     p.mb-4 Así como el sistema moda contempla áreas, esta también se clasifica de acuerdo con gamas o líneas de mercado dentro del sector de la moda; esta clasificación se puede observar en el siguiente esquema:
-        
+
     .row.mb-4
       .col-2
       .col-8
         figure
-          p.BorTit 
-            b Figura 4. 
-            | Sistema de la moda en el mundo
+          .titulo-quinto.color-acento-contenido(data-aos='fade-right')
+            h4 Figura 4. 
+              p Sistema de la moda en el mundo
           img(src='@/assets/curso/tema1/img04.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Inexmoda (2021).
       .col-2
-
-    p.mb-4.text-center A partir de la anterior imagen se puede constatar lo siguiente:
-    h2.mb-4.text-center Gamas de mercado en el sistema moda
-
-    SlyderBTitulo.mb-4(:datos="datosSlyder2")
-
-    .cajon.color-primario.fondo-a.mb-5.p-4
-      p Actualmente esta línea ha hecho impulsar fenómenos como el Slow Fashion en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
+    .p-4
+    p A partir de la anterior imagen se puede constatar lo siguiente:
+    h2 Gamas de mercado en el sistema moda
+    
+    .row.justify-content-center.align-items-center
+      .col-lg-12.fondo-c
+        SlyderA(tipo="b")
+          .row.justify-content-center.align-items-center.p-4
+            .col.lg-6
+              h4.px-4 Alta costura o haute couture
+              p.p-4 Son prendas exclusivas hechas a la medida del cliente, de manera artesanal y con un estricto proceso de calidad. La alta costura tiene su propio centro llamado Cámara Sindical de Alta Costura, y solo aquel que logra pertenecer a ella y velar por el estricto cumplimiento del paso a paso en la elaboración de prendas puede llamarse como diseñador de alta costura; este gremio fue creado, inicialmente, por Alfred Frederick Worth.   
+            .col-lg-3
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Figura 5.
+                span Diseño de alta costura 
+              img(src='@/assets/curso/tema1/img05.png', alt='Mujer desfilando un vestido largo con trasparencias y líneas verticales brillantes.')
+              figcaption Nota. Tomada de Hobeika (2018).
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col.lg-6
+              h4.px-4 Listo para llevar o #[em prêt-à-porter]
+              p.p-4 Son prendas producidas en serie con patrones que se repiten, estas siguen las tendencias y elementos que se dan en la alta costura, permitiendo la industrialización en serie de la moda. Las colecciones son presentadas por diferentes casas de moda en espacios conocidos como Semanas de la moda o Fashion Week, esto porque gozan de cierta exclusividad debido a sus precios elevados.
+            .col-lg-3
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Figura 6.
+                span Diseño prêt-à-porter
+              img(src='@/assets/curso/tema1/img06.png', alt='Mujer desfilando un vestido manga larga ceñido al cuerpo, con estampados de flores y rayas verticales, un cinturón y un accesorio en la cabeza.')
+              figcaption Nota. Tomada de Phelps (2021)
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col.lg-6
+              h4.px-4 Marcas diferencias o moda comercial
+              p.p-4 Esta línea se maneja dentro de lo que ahora se llama midi couture, que permite generar prendas no tan costosas empleando textiles con bordados fabricados industrialmente, esto hace que sean de menor precio. Se centra en la industrialización de procesos, además porque manejan una comunicación de moda más cercana a todas las personas.
+            .col-lg-3
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Figura 7.
+                span Diseño según el Midi Couture
+              img(src='@/assets/curso/tema1/img07.png', alt='Una mujer con un vestido blanco, media pierna y con bordados.')
+              figcaption Nota. Tomada de Pinterest (2021)
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col.lg-6
+              h4.px-4 Pronta moda o #[em Fast Fashion]
+              p.p-4 Gama que se produce para las masas a precios muy bajos. Utiliza materiales de baja calidad dado que necesitan producir a una escala gigante para circular sus productos, en este modelo se contempla la producción de series cortas basadas en tendencias del momento. Al ser de baja calidad genera que el producto tenga un ciclo de vida corto, por tanto, se desecha por el consumidor muy rápido y esto es lo que produce que el consumidor vuelva a comprar, de ahí que se contemple como Fast Fashion.
+            .col-lg-3
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Figura 8.
+                span Representación del Fast Fashion
+              img(src='@/assets/curso/tema1/img08.png', alt='Mujer sentada sobre una montaña de ropa.')
+              figcaption Nota. Tomada de Pinterest (2021)
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col.lg-6
+              h4.px-4 Moda lenta o #[em Slow Fashion]
+              p.p-4 Posee una filosofía de consumo responsable porque permite concientizar sobre el impacto de las prendas de vestir en el medioambiente, el agotamiento de recursos y la huella que está dejando la industria textil en la sociedad. La moda lenta está contemplada bajo modelos de sostenibilidad y dentro de las gamas se pueden encontrar otros fenómenos que surgieron  de las líneas mencionadas anteriormente como: moda circular, moda ética, moda ecológica y moda vegana.
+            .col-lg-3
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Figura 9.
+                span Representación Slow Fashion en producto
+              img(src='@/assets/curso/tema1/img09.png', alt='la imagen diagrama el proceso de la moda circular: selecciona, mejora, empaca, entrega y recicla.')
+              figcaption Nota. Tomada de Sayonara (2021)
+    br
+    .row-p-4
+      .cajon.color-primario.fondo-a.mb-5.p-4
+        p Actualmente esta línea ha hecho impulsar fenómenos como el Slow Fashion en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
 
     div.mb-5.d-flex.justify-content-center
       img(src='@/assets/curso/separador.svg', style="object-fit: none")
+
+    hr
 
     #t_1_3.titulo-segundo
       h2 1.3 Factores que influyen en la moda
@@ -75,7 +134,7 @@
   
     .row.mb-5
       .col-8.d-flex.align-items-center
-        .row.py-3.ps-3.relativo1.borde-redondo.fondo-color-primario
+        .row.py-3.ps-3.relativo1.borde-redondo.fondo-a
           .col-11
             div Son conceptos que responden a la necesidad de establecer categorías para agrupar productos de acuerdo con parámetros de afinidad y correlación. Estos universos están constituidos por conjuntos de prendas de vestir y accesorios con características similares, bajo los principios de la moda y articulados a las necesidades específicas del consumidor o público objetivo; además, agrupar las prendas por universos permite una categorización del producto.
           .col-1      
@@ -91,18 +150,91 @@
 
     p.mb-4 Dentro de la clasificación de los universos de vestuario se pueden encontrar cuatro (4) grupos distribuidos en subgrupos de la siguiente manera: 
     
-    div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 1. Gala y formal")
-      h3.text-center Grupo 1. Gala y formal
-      SlyderB(:datos="datosSlyderGalayformal")
-    div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 2. Casual")
-      h3.text-center Grupo 2. Casual
-      SlyderB(:datos="datosSlyderCasual")
-    div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 3. Informal")
-      h3.text-center Grupo 3. Informal
-      SlyderB(:datos="datosSlyderInformal")
-    div.mb-4.p-3.tarjeta.tarjeta--gris(titulo="Grupo 4. Intima")
-      h3.text-center Grupo 4. Intima
-      SlyderB(:datos="datosSlyderIntima")
+    TabsA.color-primario.mb-5
+      .tarjeta.color-acento-contenido.p-4(titulo="Grupo 1. Gala y formal")
+        SlyderA(tipo="a")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Gala
+              p.py-3 Ligados a tradiciones culturales y monárquicas para eventos y celebraciones protocolarios en los altos rangos sociales. Esto se debe porque el vestuario y su significado no es lo mismo para todo el mundo, depende el país, la región y ciudad, así como las costumbres y el simbolismo presente en el vestuario, lo que sí debe generar es distinción a partir de estos elementos diferenciadores de lo que se usaría en el diario vivir. Las características de este universo son: jerárquico, distintivo y diferenciador
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Formal
+              p.py-3 Surge una vez se establecen las gamas de mercado como la alta costura y la necesidad de diferenciar rangos sociales y laborales. Aplica en eventos como ceremonias, actividad laboral y eventos sociales. Actualmente este universo se ha visto transformado en el que no necesariamente, el no portar una prenda característica del universo deje de considerarse formal. Las características de este universo son: autocrático, jerárquico, distintivo y diferenciador. Como se puede observar es muy similar al universo de gala.
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img13.png', alt='Texto que describa la imagen')
+
+      .tarjeta.color-acento-contenido.p-4(titulo="Grupo 2. Casual")
+        .row.justify-content-center.align-items-center.p-4
+          .col-lg-7
+            h4 Casual
+            p.py-3 En este universo se puede encontrar un concepto mucho más democrático sobre la moda y su categorización de prendas, nace en los 60, como producto de una búsqueda de mayor igualdad y libertad de expresión. Permitió flexibilizar el vestuario en diferentes entornos, a tal punto que el concepto de formalidad puede llegar a incluirse en este universo al ser “democrático”, está presente en el diario vivir de la gran mayoría de personas y se delimita según su ocasión de uso. Las características de este universo son: democrático, versátil, flexible, interactivo y citadino.
+          .col-lg-5
+            img(src='@/assets/curso/tema1/img14.png', alt='Texto que describa la imagen')
+      
+      .tarjeta.color-acento-contenido.p-4(titulo="Grupo 3. Informal")
+        SlyderA(tipo="a")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Kakiwear
+              p.py-3 Nace en los 80, por el fenómeno YUPI que consistía en asistir al trabajo de manera más informal por lo general se empezó a implementar los viernes, cuando finalizaban en la semana su jornada laboral. Se caracteriza principalmente por los textiles empleados y la gama de color que contempla los tonos tierra y textil en drill y siluetas más holgadas las cuales facilitan mejor el movimiento. Actualmente se emplea en diferentes actividades del diario vivir de una persona. Las características de este universo son: dinámico, versátil, funcional, socio flexible y socio confortable.
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img15.png', alt='Texto que describa la imagen')
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Jeasnwear
+              p.py-3 Nace a partir de la popularización de la base textil en denim, el cual inicialmente se usaba solo para trabajos de minería en overoles y pantalones. Este fenómeno es originario de Estados Unidos en la década de los 50 y en los 80 logró convertirse en una base para pantalones, camisas y otros productos usados tanto por hombres como por mujeres. Las características de este universo al igual que el kakiwear al centrarse en una base textil y gama de color son: dinámico, versátil, funcional, socio flexible y socio confortable.
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img16.png', alt='Texto que describa la imagen')
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Sportswear
+              p.py-3 Universo dedicado a las prendas que se usan en prácticas deportivas, se populariza en los 70 influenciado por los juegos olímpicos y la creciente práctica de los deportes. Las características de este universo son: tecnológico, multi funcional, confortable y apariencia deportiva.
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img17.png', alt='Texto que describa la imagen')
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Active wear
+              p.py-3 Universo enfocado en prendas para realizar ejercicio en el que no necesariamente la persona que lo realiza sea un deportista profesional. Actualmente ha cobrado mucha fuerza dada la necesidad de practicar ejercicio por motivos de salud o porque hace parte del diario vivir de alguien convirtiéndolo en un estilo de vida. Las características de este universo son: tecnológico, confortable y segunda piel (facilitan el movimiento). 
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen') 
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Leisurewear
+              p.py-3 Surge hacia los 2000 como parte de un estilo informal freelance, incluye ropa para dormir e incluso bajo este mismo concepto, ropa para estar en casa. Las características de este universo son: relajado, confortable, cómodo y descanso.
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img19.png', alt='Texto que describa la imagen') 
+
+      .tarjeta.color-acento-contenido.p-4(titulo="Grupo 4. Intima")
+        SlyderA(tipo="a")
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Swimwear – beachwear
+              p.py-3 Unida a la ocasión de uso para la cual está pensada sus productos, ropa para nadar, actualmente es un universo porque vestuario para la playa o para nadar no necesariamente implica que se desarrolle bajo esta actividad, están también las salidas de baño, faldas, camisas y accesorios. Las características de este universo son: aire libre, playa, deportes y recreación.
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Sleepwear
+              p.py-3 Ropa exclusivamente para las horas de descanso, para dormir. Las características de este universo son: comodidad y descanso.
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
+          
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-7
+              h4 Underwear
+              p.py-3 Universo dedicado solo a ropa interior, también puede encontrarse con el nombre lingerie, pero depende más de la intención en su uso. Las características de este universo es la comodidad.
+            .col-lg-5
+              img(src='@/assets/curso/tema1/img22.png', alt='Texto que describa la imagen')
+              
 
     hr
     .row
@@ -178,7 +310,7 @@
               .col-1
               .col-3
                 figure
-                  img(src='@/assets/curso/tema1/img32.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
+                  img(src='@/assets/curso/tema1/img032.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
           .py-4.py-md-5(titulo="Consumidor neotradicional" :icono="require('@/assets/curso/tema1/img28.svg')")
             .row
@@ -198,7 +330,7 @@
                               
               .col-6
                 figure
-                  img(src='@/assets/curso/tema1/img33.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
+                  img(src='@/assets/curso/tema1/img033.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
           .py-4.py-md-5(titulo="Consumidor contemporáneo" :icono="require('@/assets/curso/tema1/img29.svg')")
             .row
               .col-7.ps-4.pt-3
@@ -218,7 +350,7 @@
               .col-1
               .col-3
                 figure( style='object-fit: none')
-                  img(src='@/assets/curso/tema1/img34.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
+                  img(src='@/assets/curso/tema1/img034.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
           .py-4.py-md-5(titulo="Consumidor vanguardista" :icono="require('@/assets/curso/tema1/img30.svg')")
             .row
@@ -238,7 +370,7 @@
               .col-1
               .col-3
                 figure
-                  img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
+                  img(src='@/assets/curso/tema1/img035.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
           .py-4.py-md-5(titulo="Consumidor exhibicionista" :icono="require('@/assets/curso/tema1/img31.svg')")
             .row
@@ -258,34 +390,57 @@
               .col-1
               .col-3
                 figure
-                  img(src='@/assets/curso/tema1/img36.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
+                  img(src='@/assets/curso/tema1/img036.png', alt='Texto que describa la imagen', style='object-fit: none; height:418px')
               .col-1
-    hr
+
     p.mb-4 De otra parte, identificar los tipos clientes mejora la atención que se les brinda, dado que no todos se comportan igual ni tienen la misma velocidad en la decisión de compra y esto, si no logra abordar estratégicamente, puede afectar la venta de un producto, es por ello que se debe iniciar por tener claro cómo entender el cliente. Por ello, a continuación, se relacionan diferentes recursos que ofrecen un recorrido desde su definición y los tipos y el servicio al cliente. 
     
-    .row
-      .col-2
-      .col-8
-        a.anexo.mb-1(href="https://www.youtube.com/watch?v=4WIq433jNMA" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            strong Enlace web. 
-            | Video – Cliente
-            p Conoce la definición del cliente y su importancia en un negocio.
-        a.anexo.mb-1(href="https://www.youtube.com/watch?v=FxVNkf957tw&t=26s')" target="_blank")          
-          .anexo__texto
-            strong Enlace web. 
-            | Video – Tipos de clientes
-            p Conoce los tipos de clientes basados en su comportamiento al momento de adquirir un producto.
 
-        a.anexo.mb-1(href="https://www.youtube.com/watch?v=dB6FOVF-wWs')" target="_blank")          
-          .anexo__texto
-            strong Enlace web.  
-            | Video – Servicio al cliente
-            p Conoce el comportamiento de los clientes que adquieren un producto o servicio de manera frecuente u ocasional.
-      .col-2
-    
+      .row.align-items-center.justify-content-center(data-aos="flip-up")
+        .col-lg-10 
+          .tarjeta.tarjeta-descarga.color-verde.p-4.mb-5
+            .row.justify-content-around.align-items-center
+              .col-3.col-sm-2.col-lg-1
+                img(src="@/assets/curso/video.svg")  
+              .col 
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.text-small Enlace web.  Video – Cliente
+                    .text-small Conoce la definición del cliente y su importancia en un negocio.
+                  .col-sm-auto
+                    a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=4WIq433jNMA')" target="_blank")
+                      span Ver video
+                      i.fas.fa-video
+  
+        .col-lg-10 
+          .tarjeta.tarjeta-descarga.color-verde.mb-5
+            .row.justify-content-around.align-items-center.p-4
+              .col-3.col-sm-2.col-lg-1
+                img(src="@/assets/curso/video.svg")  
+              .col 
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.text-small Enlace web.  Video – Tipos de clientes
+                    .text-small Conoce los tipos de clientes basados en su comportamiento al momento de adquirir un producto.
+                  .col-sm-auto
+                    a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=FxVNkf957tw&t=26s')" target="_blank")
+                      span Ver video
+                      i.fas.fa-video
+
+        .col-lg-10 
+          .tarjeta.tarjeta-descarga.color-verde.p-4.mb-5
+            .row.justify-content-around.align-items-center
+              .col-3.col-sm-2.col-lg-1
+                img(src="@/assets/curso/video.svg")  
+              .col 
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.text-small Enlace web.  Video – Servicio al cliente
+                    .text-small Conoce el comportamiento de los clientes que adquieren un producto o servicio de manera frecuente u ocasional.
+                  .col-sm-auto
+                    a.boton.color-secundario.texto-blanco(href="https://www.youtube.com/watch?v=dB6FOVF-wWs')" target="_blank")
+                      span Ver video
+                      i.fas.fa-video
     
 </template>
 

@@ -16,29 +16,28 @@
 
     p.mb-4 Es la materia sólida unitaria de cualquier estructura textil. La fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas; se considera filamento cuando la longitud de este es superior a su diámetro.
     
-    .row.mb-5
-      .col-1
-      .col-10          
+    .row.align-items-center.justify-content-center(data-aos="flip-up")
+      .col-lg-5      
         figure
-          p.BorTit 
-            b Figura 14. 
-            | Fibras textiles 
-          img(src='@/assets/curso/tema4/img02.svg', alt='Texto que describa la imagen')
-          figcaption Nota. Tomada de Pinterest(2021)
-      .col-1
+        .titulo-quinto.color-acento-botones 
+            h4 Figura 14. 
+              p Fibras textiles 
+        img(src='@/assets/curso/tema4/img02.svg', alt='La imagen es una fotografía de varios tipos de fibras textiles')
+        figcaption Nota. Tomada de Pinterest(2021)
 
+    .py-3
     #t_4_2.titulo-segundo
       h2 4.2 Clasificación de las fibras
 
     p.mb-4 Las fibras se clasifican, según su origen, en dos grandes grupos, las naturales y químicas y estas a su vez se subdividen en otros; en la siguiente tabla se observa esta clasificación.
     
-    p.BorTit 
-      b Tabla 2. 
-      | Clasificación de las fibras
+    .titulo-quinto.color-acento-botones 
+        h4 Tabla 2. 
+          p Clasificación de las fibras
     .tabla-b.color-acento-contenido.mb-1     
       table.sin-fondo.border        
         tr.sin-fondo.border
-          th.fondo-color-acento-contenido.texto-blanco.border.text-center(rowspan=7) 
+          th.fondo-color-acento-botones.border.text-center(rowspan=7) 
             h4 Fibras naturales
           th.fondo-gris.border.text-center(rowspan=2) 
             h4 Animales
@@ -72,7 +71,7 @@
       table.sin-fondo.border
         caption Tomada de: el rincón de celestecielo (2015)
         tr.sin-fondo.border
-          th.fondo-color-acento-contenido.texto-blanco.border.text-center(rowspan=6) 
+          th.fondo-color-acento-botones.border.text-center(rowspan=6) 
             h4 Fibras químicas
           th.fondo-gris.border.text-center(rowspan=3) 
             h4 Artificiales
@@ -106,11 +105,11 @@
       .col-3
       .col-6       
         figure
-          p.BorTit 
-            b Figura 15. 
-            | Hilaturas
-          img(src='@/assets/curso/tema4/img03.png', alt='Texto que describa la imagen')
-          figcaption Nota. Tomada de Pinterest (2021).
+        .titulo-quinto.color-acento-botones
+          h4 Figura 15. 
+            p Hilaturas
+        img(src='@/assets/curso/tema4/img03.png', alt='La imagen es un collage de fotografías de hilaturas de diferentes colores')
+        figcaption Nota. Tomada de Pinterest (2021).
       .col-3
 
     #t_4_4.titulo-segundo
@@ -118,13 +117,13 @@
 
     p.mb-4 Es el manufacturado de fibras o hilos que tienen una relación sustancial entre su longitud, área y su espesor con suficiente resistencia mecánica para otorgarle una cohesión. Los tejidos tienen una clasificación que se da en dos grupos, tejidos planos y de punto, también se contemplan aquellas no tejidas en las que diversas técnicas a nivel tecnológico permiten su impresión, en el siguiente esquema permite observar esta clasificación:
 
-    p.BorTit 
-      b Tabla 3. 
-      | Clasificación de tejidos
+    .titulo-quinto.color-acento-botones
+      h4 Tabla 3. 
+        p Clasificación de tejidos
     .tabla-b.color-acento-contenido.mb-1     
       table.sin-fondo.border        
         tr.sin-fondo.border
-          th.fondo-color-acento-contenido.texto-blanco.border.text-center(rowspan=6) 
+          th.fondo-color-acento-botones.border.text-center(rowspan=6) 
             h4 Telas tejidas
           th.fondo-gris.border.text-center(rowspan=3) 
             h4 Plano
@@ -185,51 +184,75 @@
     .tabla-b.color-acento-contenido.mb-4   
       table.sin-fondo.border       
         tr.sin-fondo.border
-          th.fondo-color-acento-contenido.texto-blanco.border.text-center 
+          th.fondo-color-acento-botones.border.text-center 
             h4 Telas no tejidas
           td.sin-fondo.border(colspan=4) Interlones - Guatas - Entretelas 
           
     p.mb-4 Las caracterizaciones de los textiles se organizan en función de su comportamiento, están relacionadas con el peso del material desde su estructura, fluidez, expansión y comprensión; a continuación, se relacionan los aspectos más relevantes de cada una.
-     
-    TabsA.otrotab.color-acento-contenido.mb-4
-      //- .tarjeta debe ir acompañado de una de una de estas clases => 
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Estructura")
-        p.mb-4 Las telas estructuradas proporcionan el cuerpo de la prenda, dan forma por sí mismas. La caída de la tela ha de mantenerse en su lugar y no caer cuando se le suelta. Combinar telas en una misma prenda permite generar textura y volumen, es importante tener en cuenta por ello la estructura.
-        figure.mb-4.px-4
-          img(src='@/assets/curso/tema4/img04.png', alt='Texto que describa la imagen')
-        figure.mb-4.px-4
-          img(src='@/assets/curso/tema4/img05.png', alt='Texto que describa la imagen')
-        figure.px-4
-          img(src='@/assets/curso/tema4/img06.png', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Fluidez")
-        p.mb-4 Estas telas son suaves y con caída, no son capaces de aguantar su propio peso, la fluidez está directamente relacionada con el tipo de hilo utilizado en su fabricación, son hilos muy torsionados tanto de hebras hiladas como de multifilamento. La caída que da sobre el cuerpo suele ser ligeras y de peso medio.
-        figure.mb-4.px-4
-          img(src='@/assets/curso/tema4/img07.png', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Expansión")
-        p.mb-4 En este grupo se incluye el concepto del plisado, este efecto permite expandir la silueta. El concepto de acolchado se incluye en esta categoría, este es un método natural para crear calidez mediante la combinación de capas de tela, se puede aplicar el acolchado medio y acolchado grueso.
-        figure.mb-4.px-4
-          img(src='@/assets/curso/tema4/img08.png', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Compresión")
-        p.mb-4 El objetivo de este grupo es crear ajuste perfecto a la silueta humana. El grado de elasticidad, dependerá del tipo y cantidad de hilos elásticos. Suelen encontrarse textiles con combinaciones de expandes, licra y acetato.
-        figure.mb-4.px-4
-          img(src='@/assets/curso/tema4/img09.png', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Entretelas")
-        p.mb-4 Son la estructura de la ropa que sostienen y refuerzan áreas críticas. Existen varios tipos de entretela y se usan para determinar el tacto, la forma y la durabilidad de la prenda. Entre ellas se encuentra:
-        ul.lista-ul--color.mb-4
-          li 
-            i.far.fa-dot-circle    
-            p <b>Tejidas: </b>pueden ser de algodón, rayón, lana, poliéster o mezclas de fibras. Se tejen de la misma forma que las telas de tejido plano. Pueden cortarse al sesgo para tener elasticidad con ángulo de 45°.
-          li 
-            i.far.fa-dot-circle    
-            p <b>No tejidas: </b>por lo general son hechas de poliéster, rayón, nylon o una mezcla de diferentes fibras, estas son distribuidas al azar y juntadas por acción química o térmica dado que no tienen una dirección de hilo, no se desmecha y pueden ser cortadas en cualquier dirección o ángulo.
-          li 
-            i.far.fa-dot-circle    
-            p <b>De punto: </b>se encuentran las de nylon, tienen estiramiento a lo ancho y estabilidad a lo largo, le añade forma y cuerpo a prácticamente cualquier tela tejida o de punto.
-            
-        figure.mb-4.px-4
-          img(src='@/assets/curso/tema4/img10.svg', alt='Texto que describa la imagen')
+    
+    .row.mb-5
+      .col-md-12
+        LineaTiempoD.color-secundario
+          .row(numero="1" titulo="Estructura").justify-content-center.color-acento-contenido
+            .col-md-10.mb-4.mb-md-0
+              p.text-small Las telas estructuradas proporcionan el cuerpo de la prenda, dan forma por sí mismas. La caída de la tela ha de mantenerse en su lugar y no caer cuando se le suelta. Combinar telas en una misma prenda permite generar textura y volumen, es importante tener en cuenta por ello la estructura.
+              SlyderA(tipo="a")
+                .row.justify-content-center.align-items-center.p-4
+                  .col.lg-8
+                    img(src='@/assets/curso/tema4/1.png', alt='Texto que describa la imagen')
+                
+                .row.justify-content-center.align-items-center.p-4
+                  .col.lg-8
+                    img(src='@/assets/curso/tema4/2.png', alt='Texto que describa la imagen')
+        
+                .row.justify-content-center.align-items-center.p-4
+                  .col.lg-8
+                    img(src='@/assets/curso/tema4/3.png', alt='Texto que describa la imagen')
+        
+       
+          .row(numero="2" titulo="fluidez").justify-content-center.color-acento-contenido
+            .col-md-10.mb-4.mb-md-0
+              p.text-small Estas telas son suaves y con caída, no son capaces de aguantar su propio peso, la fluidez está directamente relacionada con el tipo de hilo utilizado en su fabricación, son hilos muy torsionados tanto de hebras hiladas como de multifilamento. La caída que da sobre el cuerpo suele ser ligeras y de peso medio.
+              SlyderA(tipo="a")
+                .row.justify-content-center.align-items-center.p-4
+                  .col.lg-8
+                    img(src='@/assets/curso/tema4/4.png', alt='Texto que describa la imagen')
+                
+                .row.justify-content-center.align-items-center.p-4
+                  .col.lg-8
+                    img(src='@/assets/curso/tema4/5.png', alt='Texto que describa la imagen')
+          
+
+          .row(numero="3" titulo="Expansión").justify-content-center.color-acento-contenido
+            .col-md-10.mb-4.mb-md-0
+              p.text-small En este grupo se incluye el concepto del plisado, este efecto permite expandir la silueta. El concepto de acolchado se incluye en esta categoría, este es un método natural para crear calidez mediante la combinación de capas de tela, se puede aplicar el acolchado medio y acolchado grueso.
+              .row.justify-content-center.align-items-center.p-4
+                  .col.lg-8
+                    img(src='@/assets/curso/tema4/6.png', alt='Texto que describa la imagen')
+      
+          .row(numero="4" titulo="Compresión").justify-content-center.color-acento-contenido
+            .col-md-10.mb-4.mb-md-0
+              p.text-small El objetivo de este grupo es crear ajuste perfecto a la silueta humana. El grado de elasticidad, dependerá del tipo y cantidad de hilos elásticos. Suelen encontrarse textiles con combinaciones de expandes, licra y acetato.
+              .row.justify-content-center.align-items-center.p-4
+                  .col.lg-8
+                    img(src='@/assets/curso/tema4/7.png', alt='Texto que describa la imagen')
+
+          .row(numero="5" titulo="Entretelas").justify-content-center.color-acento-contenido
+            .col-md-10.mb-4.mb-md-0
+              p.text-small Son la estructura de la ropa que sostienen y refuerzan áreas críticas. Existen varios tipos de entretela y se usan para determinar el tacto, la forma y la durabilidad de la prenda. Entre ellas se encuentra:
+              ul.lista-ul--color.mb-4
+                li 
+                  i.far.fa-dot-circle    
+                  p <b>Tejidas: </b>pueden ser de algodón, rayón, lana, poliéster o mezclas de fibras. Se tejen de la misma forma que las telas de tejido plano. Pueden cortarse al sesgo para tener elasticidad con ángulo de 45°.
+                li 
+                  i.far.fa-dot-circle    
+                  p <b>No tejidas: </b>por lo general son hechas de poliéster, rayón, nylon o una mezcla de diferentes fibras, estas son distribuidas al azar y juntadas por acción química o térmica dado que no tienen una dirección de hilo, no se desmecha y pueden ser cortadas en cualquier dirección o ángulo.
+                li 
+                  i.far.fa-dot-circle    
+                  p <b>De punto: </b>se encuentran las de nylon, tienen estiramiento a lo ancho y estabilidad a lo largo, le añade forma y cuerpo a prácticamente cualquier tela tejida o de punto.
+                .row.justify-content-center.align-items-center.p-4
+                  .col.lg-5
+                    img(src='@/assets/curso/tema4/8.svg', alt='Texto que describa la imagen')    
         
     br
     br
@@ -265,13 +288,13 @@
         p Estos dos procesos pueden llegar a combinarse y siempre dependerá de la idea inicial que se tenga respecto a la prenda que se pretende realizar.
       .col-1
  
-    p.BorTit 
-      b Tabla 4. 
-      | Clasificación de los acabados
+    .titulo-quinto.color-acento-botones 
+      h4 Tabla 4. 
+        p Clasificación de los acabados
     .tabla-b.color-acento-contenido.mb-1     
       table.sin-fondo.border        
         tr.sin-fondo.border
-          th.fondo-color-acento-contenido.texto-blanco.border.text-center(rowspan=3) 
+          th.fondo-color-acento-botones.border.text-center(rowspan=3) 
             h4 Acción que lo origina / modifica Característica
           th.fondo-gris.border.text-center
             h4 Físico /estético
@@ -289,7 +312,7 @@
     .tabla-b.color-acento-contenido.mb-4 
       table.sin-fondo.border        
         tr.sin-fondo.border
-          th.fondo-color-acento-contenido.texto-blanco.border.text-center(rowspan=3) 
+          th.fondo-color-acento-botones.border.text-center(rowspan=3) 
             h4 Duración
           th.fondo-gris.border.text-center
             h4 Temporal
@@ -304,17 +327,17 @@
           th.sin-fondo.border.text-center
             h4 Renovable
           td.border Puede renovarse en el hogar o necesita de tintorería.
-
+    .py-3
     p.text-center.mb-4 <b>Dentro de esta clasificación se encuentran cuatro (4) procesos a tener en cuenta y dependiendo del acabado que se quiera lograr:</b>
      
     .row.mb-4
       .col-2
       .col-8
         figure
-          p.BorTit 
-            b Figura 17. 
-            | Procesos generales para los acabados textiles
-          img(src='@/assets/curso/tema4/img14.png', alt='Texto que describa la imagen')
+        .titulo-quinto.color-acento-botones 
+            h4 Figura 17. 
+              p Procesos generales para los acabados textiles
+        img(src='@/assets/curso/tema4/img14.svg', alt='La imagen define 4 procesos: limpieza, diseño y color, textura y desempeño')
       .col-2
     br
     .row.mb-4
@@ -348,25 +371,23 @@
           p Referente al uso de tintes en los textiles y que permean las fibras de la tela o hilo como teñido de fibras, hilos, o directamente sobre el textil o en piezas ya hechas. En diseño se encuentran técnicas de estampado para generar grafías en los textiles entre los cuales están el rotativo, serigrafía, sublimación, transfer y digital.
     .col-1
 
-    .row.mb-4
-      .col-2
-      .col-8.d-flex.align-items-center.justify-content-center
+    .row.justify-content-center.align-items-center
+      .col-lg-8
         figure.w-75
-          p.BorTit 
-            b Figura 18. 
-            | Métodos de diseño y color en textiles
-          img(src='@/assets/curso/tema4/img17.svg', alt='Texto que describa la imagen')
-      .col-2
-
-    .row.mb-4
-      .col-2
-      .col-8.d-flex.align-items-center.justify-content-center
+        .titulo-quinto.color-acento-botones 
+          h4 Figura 18. 
+            p Métodos de diseño y color en textiles
+        img(src='@/assets/curso/tema4/img17.svg', alt='Texto que describa la imagen')
+  
+    .py-3
+    .row.justify-content-center.align-items-center
+      .col-lg-8
         figure.w-75
-          p.BorTit 
-            b Figura 19. 
-            | Estampados en los textiles
-          img(src='@/assets/curso/tema4/img18.svg', alt='Texto que describa la imagen')
-      .col-2
+        .titulo-quinto.color-acento-botones 
+          h4 Figura 19. 
+            p Estampados en los textiles
+        img(src='@/assets/curso/tema4/img18.svg', alt='Texto que describa la imagen')
+    
 
     .row.mb-4
       .col-1
@@ -383,10 +404,10 @@
       .col-2
       .col-8
         figure
-          p.BorTit 
-            b Figura 20. 
-            | Textura en los textiles
-          img(src='@/assets/curso/tema4/img20.svg', alt='Texto que describa la imagen')
+        .titulo-quinto.color-acento-botones 
+            h4 Figura 20. 
+              p Textura en los textiles
+        img(src='@/assets/curso/tema4/img20.svg', alt='Texto que describa la imagen')
       .col-2
     
     .row.mb-4
@@ -404,12 +425,15 @@
       .col-3
       .col-6
         figure
-          p.BorTit 
-            b Figura 21. 
-            | Proceso general de textiles
-          img(src='@/assets/curso/tema4/img22.svg', alt='Texto que describa la imagen')
+        .titulo-quinto.color-acento-botones 
+            h4 Figura 21. 
+              p Proceso general de textiles
+        img(src='@/assets/curso/tema4/img22.svg', alt='Texto que describa la imagen')
       .col-3
-    
+
+
+
+
     //.justify-content-center
     //.align-items-center
 </template>

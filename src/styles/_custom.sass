@@ -1,7 +1,35 @@
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 27%
+    right: 77%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 7%
+    right: 52%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 5%
+    right: 30%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+  
 .BorTit
   border-left: 5px solid $color-acento-botones
   padding: 6px 0px 6px 10px
   margin-top: 6px
+
+.slyder__btn 
+  background-color: #73d8c0 !important
+
 
 .sin-fondo
   background-color: white !important
@@ -33,15 +61,48 @@
 .fondo-color-acento-botones
   background-color: $color-acento-botones !important
 
+.tabs-a__tab__text
+  color: #12263F !important
+
+.lista-ul--color li > i:first-of-type 
+  color: #f5947a !important
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  border-top-color: #f5947a !important
+
 .texto-color-acento-botones
   color: $color-acento-botones !important
-
+.color-verde
+  background-color: #73D8C0
+.fondo-naranja
+  background-color: #F5947A !important
 .fondo-a
-  background-color: #FBF8ED !important
-
+  background-color: #BAEFE4 !important
+.linea-tiempo-d__item__content, .tarjeta tarjeta--gris
+  background-color: #BAEFE4 !important
 .fondo-b
   background-color: #FFE5E5 !important
+.fondo-c
+  background-color: #FEEFEB !important
+  border-radius: 20px
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #F5947A  !important
+  top: 90%
+.tarjeta-avatar > img 
+  width: 120px
 
+.tema2
+  .titulo-segundo:after
+    border-left: solid 50px #FF9696 !important
+
+
+.slyder-a__bullets__item--active
+  background-color: #F5947A
+  border-color: #F5947A
+  opacity: 1
+
+.titulo-principal__numero span 
+  color: #12263F !important
 .tabs-a__tab__text
   text-align: center !important
 

@@ -4,8 +4,22 @@ export default {
       'El modisto, la moda y el cliente                                              ',
     descripcionCurso:
       'Las características de las prendas tienen coherencia con las necesidades del consumidor porque implican una integración de conceptos en los que el color, consumidor o cliente, tendencias, universos, ocasiones, textiles, entre otros, tienen gran incidencia. Esto lleva a que la apropiación de conceptos y metodologías esquematicen fundamentos dentro del sector de la moda.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1'],
+        imagen: require('@/assets/curso/decorativos/banner-principal-decorativo-1.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/decorativos/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/decorativos/banner-principal-decorativo-3.png'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -121,6 +135,11 @@ export default {
       //  titulo: 'Actividad didáctica',
       //  desarrolloContenidos: true,
       //},
+      {
+        nombreRuta: 'sintesis',
+        icono: 'fas fa-sitemap',
+        titulo: 'Sintesis',
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
