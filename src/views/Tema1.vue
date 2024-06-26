@@ -9,7 +9,7 @@
       h1 Fundamentos de la moda
 
     .cajon.color-primario.fondo-a.p-4.mb-5
-      p Los conceptos aquí planteados son los que originan, de forma general, la fundamentación en moda en la que el actor que trabaja en este sector deberá tener especial atención para la generación de productos que generen el impacto deseado en sus consumidores. Por ello, a continuación, se relacionarán los fundamentos que hacen posible tener una conceptualización sobre este indispensable tema.
+      p Los conceptos aquí planteados son los que originan, de forma general, la fundamentación en moda en la que el actor que trabaja en este sector deberá tener especial atención para la generación de productos que impacten de la manera deseada en sus consumidores. Por ello, a continuación, se relacionarán los fundamentos que hacen posible tener una conceptualización sobre este indispensable tema.
     
     #t_1_1.titulo-segundo
       h2 1.1 Sistema moda
@@ -20,7 +20,7 @@
       .col-lg-6
         div
           p.mb-4 Cuando se habla de sistema moda se concluye que la moda y las tendencias permean diversidad de áreas en las que el ser humano se desenvuelve, como el estilo de vida de un individuo, comunidad o sociedad, y dentro de estas se encuentran la gastronomía, música, política, conciencia ambiental, tecnología, estructuras familiares, arte, cosmética, cine, entre otras; por ello, es de suma importancia comprender y leer la moda de manera integral y no aislada en el vestuario y relacionándola directa y contextualmente con la cultura.
-          p.mb-4 En relación con la cultura se puede entender esta como un concepto que abarca diversas manifestaciones del ser humano, además de ser un sistema de creencias y costumbres desarrolladas por un grupo, comunidad y sociedad en la que se integran símbolos y significados que le permiten a una persona sentirse parte de un grupo (ciudad, región, país).
+          p.mb-4 En relación con la cultura, esta se puede entender como un concepto que abarca diversas manifestaciones del ser humano, además de ser un sistema de creencias y costumbres desarrolladas por un grupo, comunidad y sociedad en la que se integran símbolos y significados que le permiten a una persona sentirse parte de un grupo (ciudad, región, país).
           p Las siguientes imágenes pueden dar una visión integrada de la moda y sus tendencias en los escenarios del sistema moda, situando la moda en el campo del arte. 
       .col-lg-6
         SlyderCTitulo.mb-5(:datos="datosSlyder")
@@ -40,7 +40,7 @@
           .titulo-quinto.color-acento-contenido(data-aos='fade-right')
             h4 Figura 4. 
               p Sistema de la moda en el mundo
-          img(src='@/assets/curso/tema1/img04.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img04.svg', alt='Texto alternativo figura 4: el esquema es una pirámide que describe en niveles lo siguiente: comenzando desde la base 1.Masivo: pronta moda, toma de las marcas de lujo el merchandicing, Massterprestige(colaboraciones) 1.	Mercado medio: marcas diferenciadas, aspiran ser difusión 2.	Mercado alto: Listo para usar, nuevas marcas de las casas de lujo. 3.	Lujo o exclusivo: alta costura, diseñadores.')
           figcaption Nota. Tomada de Inexmoda (2021).
       .col-2
     .p-4
@@ -52,7 +52,7 @@
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center.p-4
             .col.lg-6
-              h4.px-4 Alta costura o haute couture
+              h4.px-4 Alta costura o #[em haute couture]
               p.p-4 Son prendas exclusivas hechas a la medida del cliente, de manera artesanal y con un estricto proceso de calidad. La alta costura tiene su propio centro llamado Cámara Sindical de Alta Costura, y solo aquel que logra pertenecer a ella y velar por el estricto cumplimiento del paso a paso en la elaboración de prendas puede llamarse como diseñador de alta costura; este gremio fue creado, inicialmente, por Alfred Frederick Worth.   
             .col-lg-3
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -64,11 +64,11 @@
           .row.justify-content-center.align-items-center.p-4
             .col.lg-6
               h4.px-4 Listo para llevar o #[em prêt-à-porter]
-              p.p-4 Son prendas producidas en serie con patrones que se repiten, estas siguen las tendencias y elementos que se dan en la alta costura, permitiendo la industrialización en serie de la moda. Las colecciones son presentadas por diferentes casas de moda en espacios conocidos como Semanas de la moda o Fashion Week, esto porque gozan de cierta exclusividad debido a sus precios elevados.
+              p.p-4 Son prendas producidas en serie con patrones que se repiten, estas siguen las tendencias y elementos que se dan en la alta costura, permitiendo la industrialización en serie de la moda. Las colecciones son presentadas por diferentes casas de moda en espacios conocidos como Semanas de la moda o #[em Fashion Week], esto porque gozan de cierta exclusividad debido a sus precios elevados.
             .col-lg-3
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 6.
-                span Diseño prêt-à-porter
+                span Diseño #[em prêt-à-porter]
               img(src='@/assets/curso/tema1/img06.png', alt='Mujer desfilando un vestido manga larga ceñido al cuerpo, con estampados de flores y rayas verticales, un cinturón y un accesorio en la cabeza.')
               figcaption Nota. Tomada de Phelps (2021)
           
@@ -86,11 +86,11 @@
           .row.justify-content-center.align-items-center.p-4
             .col.lg-6
               h4.px-4 Pronta moda o #[em Fast Fashion]
-              p.p-4 Gama que se produce para las masas a precios muy bajos. Utiliza materiales de baja calidad dado que necesitan producir a una escala gigante para circular sus productos, en este modelo se contempla la producción de series cortas basadas en tendencias del momento. Al ser de baja calidad genera que el producto tenga un ciclo de vida corto, por tanto, se desecha por el consumidor muy rápido y esto es lo que produce que el consumidor vuelva a comprar, de ahí que se contemple como Fast Fashion.
+              p.p-4 Gama que se produce para las masas a precios muy bajos. Utiliza materiales de baja calidad dado que necesitan producir a una escala gigante para circular sus productos, en este modelo se contempla la producción de series cortas basadas en tendencias del momento. Al ser de baja calidad genera que el producto tenga un ciclo de vida corto, por tanto, se desecha por el consumidor muy rápido y esto es lo que produce que el consumidor vuelva a comprar, de ahí que se contemple como #[em Fast Fashion].
             .col-lg-3
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 8.
-                span Representación del Fast Fashion
+                span Representación del #[em Fast Fashion]
               img(src='@/assets/curso/tema1/img08.png', alt='Mujer sentada sobre una montaña de ropa.')
               figcaption Nota. Tomada de Pinterest (2021)
           
@@ -107,7 +107,7 @@
     br
     .row-p-4
       .cajon.color-primario.fondo-a.mb-5.p-4
-        p Actualmente esta línea ha hecho impulsar fenómenos como el Slow Fashion en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
+        p Actualmente esta línea ha hecho impulsar fenómenos como el #[em Slow Fashion] en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
 
     div.mb-5.d-flex.justify-content-center
       img(src='@/assets/curso/separador.svg', style="object-fit: none")
@@ -163,7 +163,7 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
               h4 Formal
-              p.py-3 Surge una vez se establecen las gamas de mercado como la alta costura y la necesidad de diferenciar rangos sociales y laborales. Aplica en eventos como ceremonias, actividad laboral y eventos sociales. Actualmente este universo se ha visto transformado en el que no necesariamente, el no portar una prenda característica del universo deje de considerarse formal. Las características de este universo son: autocrático, jerárquico, distintivo y diferenciador. Como se puede observar es muy similar al universo de gala.
+              p.py-3 Surge una vez se establecen las gamas de mercado como la alta costura y la necesidad de diferenciar rangos sociales y laborales. Aplica en eventos como ceremonias, actividad laboral y eventos sociales. Actualmente este universo se ha visto transformado en el que no necesariamente, el no portar una prenda característica del universo deje de considerarse formal. Las características de este universo son: autocrático, jerárquico, distintivo y diferenciador. Es muy similar al universo de gala.
             .col-lg-5
               img(src='@/assets/curso/tema1/img13.png', alt='Texto que describa la imagen')
 
@@ -179,35 +179,35 @@
         SlyderA(tipo="a")
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
-              h4 Kakiwear
+              h4 #[em Kakiwear]
               p.py-3 Nace en los 80, por el fenómeno YUPI que consistía en asistir al trabajo de manera más informal por lo general se empezó a implementar los viernes, cuando finalizaban en la semana su jornada laboral. Se caracteriza principalmente por los textiles empleados y la gama de color que contempla los tonos tierra y textil en drill y siluetas más holgadas las cuales facilitan mejor el movimiento. Actualmente se emplea en diferentes actividades del diario vivir de una persona. Las características de este universo son: dinámico, versátil, funcional, socio flexible y socio confortable.
             .col-lg-5
               img(src='@/assets/curso/tema1/img15.png', alt='Texto que describa la imagen')
           
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
-              h4 Jeasnwear
-              p.py-3 Nace a partir de la popularización de la base textil en denim, el cual inicialmente se usaba solo para trabajos de minería en overoles y pantalones. Este fenómeno es originario de Estados Unidos en la década de los 50 y en los 80 logró convertirse en una base para pantalones, camisas y otros productos usados tanto por hombres como por mujeres. Las características de este universo al igual que el kakiwear al centrarse en una base textil y gama de color son: dinámico, versátil, funcional, socio flexible y socio confortable.
+              h4 #[em Jeasnwear]
+              p.py-3 Nace a partir de la popularización de la base textil en denim, el cual inicialmente se usaba solo para trabajos de minería en overoles y pantalones. Este fenómeno es originario de Estados Unidos en la década de los 50 y en los 80 logró convertirse en una base para pantalones, camisas y otros productos usados tanto por hombres como por mujeres. Las características de este universo al igual que el #[em Kakiwear] al centrarse en una base textil y gama de color son: dinámico, versátil, funcional, socio flexible y socio confortable.
             .col-lg-5
               img(src='@/assets/curso/tema1/img16.png', alt='Texto que describa la imagen')
           
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
-              h4 Sportswear
+              h4 #[em Sportswear]
               p.py-3 Universo dedicado a las prendas que se usan en prácticas deportivas, se populariza en los 70 influenciado por los juegos olímpicos y la creciente práctica de los deportes. Las características de este universo son: tecnológico, multi funcional, confortable y apariencia deportiva.
             .col-lg-5
               img(src='@/assets/curso/tema1/img17.png', alt='Texto que describa la imagen')
           
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
-              h4 Active wear
+              h4 #[em Active wear]
               p.py-3 Universo enfocado en prendas para realizar ejercicio en el que no necesariamente la persona que lo realiza sea un deportista profesional. Actualmente ha cobrado mucha fuerza dada la necesidad de practicar ejercicio por motivos de salud o porque hace parte del diario vivir de alguien convirtiéndolo en un estilo de vida. Las características de este universo son: tecnológico, confortable y segunda piel (facilitan el movimiento). 
             .col-lg-5
               img(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen') 
           
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
-              h4 Leisurewear
+              h4 #[em Leisurewear]
               p.py-3 Surge hacia los 2000 como parte de un estilo informal freelance, incluye ropa para dormir e incluso bajo este mismo concepto, ropa para estar en casa. Las características de este universo son: relajado, confortable, cómodo y descanso.
             .col-lg-5
               img(src='@/assets/curso/tema1/img19.png', alt='Texto que describa la imagen') 
@@ -216,21 +216,21 @@
         SlyderA(tipo="a")
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
-              h4 Swimwear – beachwear
+              h4 #[em Swimwear – beachwear]
               p.py-3 Unida a la ocasión de uso para la cual está pensada sus productos, ropa para nadar, actualmente es un universo porque vestuario para la playa o para nadar no necesariamente implica que se desarrolle bajo esta actividad, están también las salidas de baño, faldas, camisas y accesorios. Las características de este universo son: aire libre, playa, deportes y recreación.
             .col-lg-5
               img(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
           
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
-              h4 Sleepwear
+              h4 #[em Sleepwear]
               p.py-3 Ropa exclusivamente para las horas de descanso, para dormir. Las características de este universo son: comodidad y descanso.
             .col-lg-5
               img(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
           
           .row.justify-content-center.align-items-center.p-4
             .col-lg-7
-              h4 Underwear
+              h4 #[em Underwear]
               p.py-3 Universo dedicado solo a ropa interior, también puede encontrarse con el nombre lingerie, pero depende más de la intención en su uso. Las características de este universo es la comodidad.
             .col-lg-5
               img(src='@/assets/curso/tema1/img22.png', alt='Texto que describa la imagen')
@@ -245,26 +245,30 @@
         div
           h3 Ocasiones de uso
           p Contempla los distintos escenarios en los que una persona viste una prenda, esto permite que en los universos de vestuarios se permita segmentar aún más el producto. Dentro de estas ocasiones de uso se encuentra, protocolario (formal), multiocasión, informal y complementos. Para tener mayor claridad en la correspondencia de las ocasiones de uso con universos del vestuario, se debe tener presente el siguiente esquema:
+        
       .col-7.d-flex.align-items-center.justify-content-center
-        .tabla-a.color-acento-contenido
-          table           
-            thead
-              tr
-                th(colspan=2) Ocasión de uso
-                th(colspan=5) Universo de vestuario               
-            tbody
-              tr
-                td(colspan=2) Protocolario
-                td(colspan=5) Gala, Formal
-              tr
-                td(colspan=2) Multiocasión
-                td(colspan=5) Casual
-              tr
-                td(colspan=2) Informal
-                td(colspan=5) Kakiwear, Jeanswear, Sportswear, Active wear, Leisurewear
-              tr
-                td(colspan=2) Complementario
-                td(colspan=5) Swinwear – Beachwear, Sleepwear, Underwear     
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 1.
+          span Ocasiones de uso y universos de vestuario
+          .tabla-a.color-acento-contenido.py-2
+            table           
+              thead
+                tr
+                  th(colspan=2) Ocasión de uso
+                  th(colspan=5) Universo de vestuario               
+              tbody
+                tr
+                  td(colspan=2) Protocolario
+                  td(colspan=5) Gala, Formal
+                tr
+                  td(colspan=2) Multiocasión
+                  td(colspan=5) Casual
+                tr
+                  td(colspan=2) Informal
+                  td(colspan=5) #[em Kakiwear, Jeanswear, Sportswear, Active wear, Leisurewear]
+                tr
+                  td(colspan=2) Complementario
+                  td(colspan=5) #[em Swinwear – Beachwear, Sleepwear, Underwear]     
     hr
     .row
       .col-1.d-flex.align-items-center.justify-content-center
@@ -459,7 +463,7 @@ export default {
         figura: 'Figura 1. ',
         titulo: 'Moda y arte, inspirada en Mondrian',
         imagen: require('@/assets/curso/tema1/img01.png'),
-        leyendaImagen: 'Nota. Tomada de PlayBoya (2020) ',
+        leyendaImagen: 'Nota. Tomada de PlayBoya (2020)',
       },
       {
         figura: 'Figura 2. ',
@@ -489,7 +493,7 @@ export default {
         titulo: 'Listo para llevar o prêt-à-porter',
         tituloImg: 'Diseño prêt-à-porter',
         texto:
-          'Son prendas producidas en serie con patrones que se repiten, estas siguen las tendencias y elementos que se dan en la alta costura, permitiendo la industrialización en serie de la moda. Las colecciones son presentadas por diferentes casas de moda en espacios conocidos como Semanas de la moda o Fashion Week, esto porque gozan de cierta exclusividad debido a sus precios elevados.',
+          'Son prendas producidas en serie con patrones que se repiten, estas siguen las tendencias y elementos que se dan en la alta costura, permitiendo la industrialización en serie de la moda. Las colecciones son presentadas por diferentes casas de moda en espacios conocidos como Semanas de la moda o <i>Fashion Week</i>, esto porque gozan de cierta exclusividad debido a sus precios elevados.',
         imagen: require('@/assets/curso/tema1/img06.png'),
         leyendaImagen: 'Nota. Tomada de Phelps (2021)',
       },
@@ -498,23 +502,23 @@ export default {
         titulo: 'Marcas diferencias o moda comercial',
         tituloImg: 'Diseño según el Midi Couture',
         texto:
-          'Esta línea se maneja dentro de lo que ahora se llama midi couture, que permite generar prendas no tan costosas empleando textiles con bordados fabricados industrialmente, esto hace que sean menos costosas. Se centra en la industrialización de procesos, además porque manejan una comunicación de moda más cercana a todas las personas.',
+          'Esta línea se maneja dentro de lo que ahora se llama midi couture, que permite generar prendas no tan costosas empleando textiles con bordados fabricados industrialmente, esto hace que sean de menor precio. Se centra en la industrialización de procesos, además porque manejan una comunicación de moda más cercana a todas las personas.',
         imagen: require('@/assets/curso/tema1/img07.png'),
         leyendaImagen: 'Nota. Tomada de Pinterest (2021)',
       },
       {
         figura: 'Figura 8. ',
-        titulo: 'Pronta moda o Fast Fashion',
-        tituloImg: 'Representación del Fast Fashion',
+        titulo: 'Pronta moda o <i>Fast Fashion</i>',
+        tituloImg: 'Representación del <i>Fast Fashion</i>',
         texto:
-          'Gama que se produce para las masas a precios muy bajos. Utiliza materiales de baja calidad dado que necesitan producir a una escala gigante para circular sus productos, en este modelo se contempla la producción de series cortas basadas en tendencias del momento. Al ser de baja calidad genera que el producto tenga un ciclo de vida corto, por tanto, se desecha por el consumidor muy rápido y esto es lo que produce que el consumidor vuelva a comprar, de ahí que se contemple como Fast Fashion.',
+          'Gama que se produce para las masas a precios muy bajos. Utiliza materiales de baja calidad dado que necesitan producir a una escala gigante para circular sus productos, en este modelo se contempla la producción de series cortas basadas en tendencias del momento. Al ser de baja calidad genera que el producto tenga un ciclo de vida corto, por tanto, se desecha por el consumidor muy rápido y esto es lo que produce que el consumidor vuelva a comprar, de ahí que se contemple como <i>Fast Fashion.</i>',
         imagen: require('@/assets/curso/tema1/img08.png'),
         leyendaImagen: 'Nota. Tomada de Pinterest (2021)',
       },
       {
         figura: 'Figura 9. ',
-        titulo: 'Moda lenta o Slow Fashion',
-        tituloImg: 'Representación Slow Fashion en producto',
+        titulo: 'Moda lenta o <i>Slow Fashion</i>',
+        tituloImg: 'Representación <i>Slow Fashion</i> en producto',
         texto:
           'Posee una filosofía de consumo responsable porque permite concienciar sobre el impacto de las vestir en el medioambiente, el agotamiento de recursos y la huella que está dejando la industria textil en la sociedad; está contemplada bajo modelos de sostenibilidad. También dentro de las gamas se pueden encontrar otros fenómenos surgidos dentro de las líneas mencionadas anteriormente como: moda circular, moda ética, moda ecológica y moda vegana.',
         imagen: require('@/assets/curso/tema1/img09.png'),
@@ -545,31 +549,31 @@ export default {
     ],
     datosSlyderInformal: [
       {
-        titulo: 'Kakiwear',
+        titulo: '<i>Kakiwear</i>',
         texto:
           'Nace en los 80, por el fenómeno YUPI que consistía en asistir al trabajo de manera más informal por lo general se empezó a implementar los viernes, cuando finalizaban en la semana su jornada laboral. Se caracteriza principalmente por los textiles empleados y la gama de color que contempla los tonos tierra y textil en drill y siluetas más holgadas las cuales facilitan mejor el movimiento. Actualmente se emplea en diferentes actividades del diario vivir de una persona. Las características de este universo son: dinámico, versátil, funcional, socio flexible y socio confortable.',
         imagen: require('@/assets/curso/tema1/img15.png'),
       },
       {
-        titulo: 'Jeasnwear',
+        titulo: '<i>Jeasnwear</i>',
         texto:
-          'Nace a partir de la popularización de la base textil en denim, el cual inicialmente se usaba solo para trabajos de minería en overoles y pantalones. Este fenómeno es originario de Estados Unidos en la década de los 50 y en los 80 logró convertirse en una base para pantalones, camisas y otros productos usados tanto por hombres como por mujeres. Las características de este universo al igual que el kakiwear al centrarse en una base textil y gama de color son: dinámico, versátil, funcional, socio flexible y socio confortable.',
+          'Nace a partir de la popularización de la base textil en denim, el cual inicialmente se usaba solo para trabajos de minería en overoles y pantalones. Este fenómeno es originario de Estados Unidos en la década de los 50 y en los 80 logró convertirse en una base para pantalones, camisas y otros productos usados tanto por hombres como por mujeres. Las características de este universo al igual que el <i>kakiwear</i> al centrarse en una base textil y gama de color son: dinámico, versátil, funcional, socio flexible y socio confortable.',
         imagen: require('@/assets/curso/tema1/img16.png'),
       },
       {
-        titulo: 'Sportswear',
+        titulo: '<i>Sportswear</i>',
         texto:
           'Universo dedicado a las prendas que se usan en prácticas deportivas, se populariza en los 70 influenciado por los juegos olímpicos y la creciente práctica de los deportes. Las características de este universo son: tecnológico, multi funcional, confortable y apariencia deportiva.',
         imagen: require('@/assets/curso/tema1/img17.png'),
       },
       {
-        titulo: 'Active wear',
+        titulo: '<i>Active wear</i>',
         texto:
           'Universo enfocado en prendas para realizar ejercicio en el que no necesariamente la persona que lo realiza sea un deportista profesional. Actualmente ha cobrado mucha fuerza dada la necesidad de practicar ejercicio por motivos de salud o porque hace parte del diario vivir de alguien convirtiéndolo en un estilo de vida. Las características de este universo son: tecnológico, confortable y segunda piel (facilitan el movimiento). ',
         imagen: require('@/assets/curso/tema1/img18.png'),
       },
       {
-        titulo: 'Leisurewear',
+        titulo: '<i>Leisurewear</i>',
         texto:
           'Surge hacia los 2000 como parte de un estilo informal freelance, incluye ropa para dormir e incluso bajo este mismo concepto, ropa para estar en casa. Las características de este universo son: relajado, confortable, cómodo y descanso.',
         imagen: require('@/assets/curso/tema1/img19.png'),
@@ -577,19 +581,19 @@ export default {
     ],
     datosSlyderIntima: [
       {
-        titulo: 'Swimwear – beachwear',
+        titulo: '<i>Swimwear – beachwear</i>',
         texto:
           'Unida a la ocasión de uso para la cual está pensada sus productos, ropa para nadar, actualmente es un universo porque vestuario para la playa o para nadar no necesariamente implica que se desarrolle bajo esta actividad, están también las salidas de baño, faldas, camisas y accesorios. Las características de este universo son: aire libre, playa, deportes y recreación.',
         imagen: require('@/assets/curso/tema1/img20.png'),
       },
       {
-        titulo: 'Sleepwear',
+        titulo: '<i>Sleepwear</i>',
         texto:
           'Ropa exclusivamente para las horas de descanso, para dormir. Las características de este universo son: comodidad y descanso.',
         imagen: require('@/assets/curso/tema1/img21.png'),
       },
       {
-        titulo: 'Underwear',
+        titulo: '<i>Underwear</i>',
         texto:
           'Universo dedicado solo a ropa interior, también puede encontrarse con el nombre lingerie, pero depende más de la intención en su uso. Las características de este universo es la comodidad.',
         imagen: require('@/assets/curso/tema1/img22.png'),

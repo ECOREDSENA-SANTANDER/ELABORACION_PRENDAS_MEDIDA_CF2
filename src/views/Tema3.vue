@@ -96,16 +96,16 @@
         .text-small.py-2 La imagen es una cuadricula donde se presentan varias opciones para: la silueta de la prenda, el cuello, las mangas, el bolsillo, el sistema de cierre y el puño.
       .col-3
     
-    p.mb-4 A continuación, se presenta el cuadro metamórfico de una prenda tipo blazer.
+    p.mb-4 A continuación, se presenta el cuadro metamórfico de una prenda tipo #[em blazer].
     
     .row.align-items-center.justify-content-center(data-aos="flip-up")
       .col-lg-10     
         figure
         .titulo-quinto.color-acento-botones 
           h4 Figura 14. 
-            p Tipología blazer
+            p Tipología #[em blazer]
         img(src='@/assets/curso/tema2/img13.png', alt='Texto que describa la imagen')
-        p.py-4 La imagen presenta un cuadro metamórfico de un blazer, donde se elige una opción por cada fila y luego se evidencia el resultado final que es el blazer.
+        p.py-4 La imagen presenta un cuadro metamórfico de un #[em blazer], donde se elige una opción por cada fila y luego se evidencia el resultado final que es el #[em blazer].
       .col-3
 
 </template>

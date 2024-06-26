@@ -8,7 +8,7 @@
         span 5
       h1 Esquemas de color
 
-    p.mb-5 Los esquemas de color son un terminado y concepto incluido dentro de la teoría de color y hace referencia a las gamas y paletas que se establecen en el color a partir de análisis de círculos cromáticos; en este apartado se abordarán las paletas y técnicas para lograr la combinación ideal ligada al vestuario. Cuando se habla de color en términos generales, esto es aplicable a cualquier área, pues es universal, así que dependerá del aprendiz su uso y aplicabilidad de acuerdo con la propuesta y producto esperado. Por lo anterior, se plasmarán cuáles son los esquemas básicos de color.
+    p.mb-5 Los esquemas de color son un concepto incluido dentro de la teoría de color y hace referencia a las gamas y paletas que se establecen en el color a partir de análisis de círculos cromáticos; en este apartado se abordarán las paletas y técnicas para lograr la combinación ideal ligada al vestuario. Cuando se habla de color en términos generales, esto es aplicable a cualquier área, pues es universal, así que dependerá del aprendiz su uso y aplicabilidad de acuerdo con la propuesta y producto esperado. Por lo anterior, se plasmarán cuáles son los esquemas básicos de color.
     
     SlyderB.mb-4(:datos="datosSlyder")
 

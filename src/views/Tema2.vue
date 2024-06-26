@@ -51,15 +51,15 @@
               img(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
               .tarjeta.color-verde
                 .p-4
-                  h2.text-center #[em Trickle Down] o transmisión vertical hacia abajo:   
-                  p.text-center.mb-0 Propuesta por George Simmel en 1905, enfocada en que la difusión es impuesta por las clases altas en un afán de distinción y muestra a toda la sociedad, esto incluye clases sociales bajas; es decir, la moda se impone bajo un modelo de imitación y es aquí donde las clases bajas toman estos referentes y los apropian.
+                  h2.text-center #[em Trickle Across] o  transmisión horizontal:   
+                  p.text-center.mb-0 Planteada por Charles W. King en 1963, en la que influyen factores tanto sociales y culturales como ambientes sociales en constante evolución, el impacto que los medios de comunicación ejercen en el público e incluye a todas las clases sociales; aquí la mercadotecnia está enfocada en las diversas estrategias para su distribución, no necesita validación externa y surge de las clases sociales altas. 
       .col-lg-4
         .tarjeta-avatar
               img(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
               .tarjeta.color-verde
                 .p-4
-                  h2.text-center #[em Trickle Down] o transmisión vertical hacia abajo:   
-                  p.text-center.mb-0 Propuesta por George Simmel en 1905, enfocada en que la difusión es impuesta por las clases altas en un afán de distinción y muestra a toda la sociedad, esto incluye clases sociales bajas; es decir, la moda se impone bajo un modelo de imitación y es aquí donde las clases bajas toman estos referentes y los apropian.
+                  h2.text-center #[em Trickle Up] o transmisión vertical hacia arriba:   
+                  p.text-center.mb-0 Formulada por George A. Fiel en 1970, similar a la primera, afirma que no necesariamente la clase alta impone o difunde las tendencias, sino que también funciona desde las clases inferiores hacia arriba, esto es generado por fenómenos como la apropiación de culturas, estilos y estéticas. 
     .row.mb-4.py-4
       .col-1
       .col-10.d-flex

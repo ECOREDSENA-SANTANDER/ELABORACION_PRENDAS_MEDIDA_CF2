@@ -151,7 +151,7 @@
                 | Espina / Espiga.
               li 
                 i.lista-ul__vineta
-                | Sarga interrumpida (Broken Twill).          
+                | Sarga interrumpida (#[em Broken Twill]).          
         tr.sin-fondo.border
           td.border Otros
           td.border 
@@ -167,20 +167,20 @@
             ul.lista-ul
               li 
                 i.lista-ul__vineta
-                | Sencillo (jersey, lacoste). 
+                | Sencillo (#[em jersey, lacoste]). 
               li 
                 i.lista-ul__vineta
-                | Doble (rib o resortado, interlock, piqué).
+                | Doble (#[em rib] o resortado, #[em interlock], piqué).
         tr.sin-fondor.border
           td.border Por urdimbre.
           td.border
             ul.lista-ul
               li 
                 i.lista-ul__vineta
-                | Tricot.
+                | #[em Tricot].
               li 
                 i.lista-ul__vineta
-                | Raschell.               
+                | #[em Raschell].               
     .tabla-b.color-acento-contenido.mb-4   
       table.sin-fondo.border       
         tr.sin-fondo.border
