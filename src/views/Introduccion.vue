@@ -11,7 +11,7 @@
 
     figure(data-aos="fade-right")
       .video.mb-1
-        iframe(width="1280" height="720" src="https://youtube.com/embed/v=zqxRNVjvi8Q&list" title="Infraestructura y servicios tecnológicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="1280" height="720" src="https://youtube.com/embed/zqxRNVjvi8Q" title="Infraestructura y servicios tecnológicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. El modisto, la moda y el cliente
 
 </template>

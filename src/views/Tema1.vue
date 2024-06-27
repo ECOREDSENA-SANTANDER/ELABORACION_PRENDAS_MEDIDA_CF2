@@ -11,23 +11,21 @@
     .cajon.color-primario.fondo-a.p-4.mb-5
       p Los conceptos aquí planteados son los que originan, de forma general, la fundamentación en moda en la que el actor que trabaja en este sector deberá tener especial atención para la generación de productos que impacten de la manera deseada en sus consumidores. Por ello, a continuación, se relacionarán los fundamentos que hacen posible tener una conceptualización sobre este indispensable tema.
     
+    Separador
     #t_1_1.titulo-segundo
       h2 1.1 Sistema moda
-
-    //.justify-content-center
-    //.align-items-center
+    
     .row.mb-5.justify-content-center
       .col-lg-6
         div
-          p.mb-4 Cuando se habla de sistema moda se concluye que la moda y las tendencias permean diversidad de áreas en las que el ser humano se desenvuelve, como el estilo de vida de un individuo, comunidad o sociedad, y dentro de estas se encuentran la gastronomía, música, política, conciencia ambiental, tecnología, estructuras familiares, arte, cosmética, cine, entre otras; por ello, es de suma importancia comprender y leer la moda de manera integral y no aislada en el vestuario y relacionándola directa y contextualmente con la cultura.
-          p.mb-4 En relación con la cultura, esta se puede entender como un concepto que abarca diversas manifestaciones del ser humano, además de ser un sistema de creencias y costumbres desarrolladas por un grupo, comunidad y sociedad en la que se integran símbolos y significados que le permiten a una persona sentirse parte de un grupo (ciudad, región, país).
+          p Cuando se habla de sistema moda se concluye que la moda y las tendencias permean diversidad de áreas en las que el ser humano se desenvuelve, como el estilo de vida de un individuo, comunidad o sociedad, y dentro de estas se encuentran la gastronomía, música, política, conciencia ambiental, tecnología, estructuras familiares, arte, cosmética, cine, entre otras; por ello, es de suma importancia comprender y leer la moda de manera integral y no aislada en el vestuario y relacionándola directa y contextualmente con la cultura.
+          p En relación con la cultura, esta se puede entender como un concepto que abarca diversas manifestaciones del ser humano, además de ser un sistema de creencias y costumbres desarrolladas por un grupo, comunidad y sociedad en la que se integran símbolos y significados que le permiten a una persona sentirse parte de un grupo (ciudad, región, país).
           p Las siguientes imágenes pueden dar una visión integrada de la moda y sus tendencias en los escenarios del sistema moda, situando la moda en el campo del arte. 
       .col-lg-6
         SlyderCTitulo.mb-5(:datos="datosSlyder")
     
-    div.mb-5.d-flex.justify-content-center
-      img(src='@/assets/curso/separador.svg', style="object-fit: none")
-
+    
+    Separador
     #t_1_2.titulo-segundo
       h2 1.2 Gamas de mercado en el sistema moda
     
@@ -109,11 +107,7 @@
       .cajon.color-primario.fondo-a.mb-5.p-4
         p Actualmente esta línea ha hecho impulsar fenómenos como el #[em Slow Fashion] en el que la sostenibilidad juega un rol importante en la generación de productos debido a las grandes cantidades de desechos textiles, lo que en últimas genera un altísimo impacto medioambiental en contra del planeta.
 
-    div.mb-5.d-flex.justify-content-center
-      img(src='@/assets/curso/separador.svg', style="object-fit: none")
-
-    hr
-
+    Separador
     #t_1_3.titulo-segundo
       h2 1.3 Factores que influyen en la moda
 
@@ -126,9 +120,7 @@
           img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen')
       .col-1
 
-    div.mb-5.d-flex.justify-content-center
-      img(src='@/assets/curso/separador.svg', style="object-fit: none")
-
+    Separador
     #t_1_4.titulo-segundo
       h2 1.4 Universos de vestuario
   
@@ -142,9 +134,7 @@
         figure
           img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
 
-    div.mb-5.d-flex.justify-content-center
-      img(src='@/assets/curso/separador.svg', style="object-fit: none")
-
+    Separador
     #t_1_5.titulo-segundo
       h2 1.5 Clasificación de universos de vestuario
 
@@ -237,16 +227,16 @@
               
 
     hr
-    .row
-      .col-1.d-flex.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center
+      .col-lg-1.col-2
         figure
           img(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen')
-      .col-4
+      .col-lg-4
         div
           h3 Ocasiones de uso
           p Contempla los distintos escenarios en los que una persona viste una prenda, esto permite que en los universos de vestuarios se permita segmentar aún más el producto. Dentro de estas ocasiones de uso se encuentra, protocolario (formal), multiocasión, informal y complementos. Para tener mayor claridad en la correspondencia de las ocasiones de uso con universos del vestuario, se debe tener presente el siguiente esquema:
         
-      .col-7.d-flex.align-items-center.justify-content-center
+      .col-lg-7.align-items-center.justify-content-center
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 1.
           span Ocasiones de uso y universos de vestuario
@@ -270,11 +260,11 @@
                   td(colspan=2) Complementario
                   td(colspan=5) #[em Swinwear – Beachwear, Sleepwear, Underwear]     
     hr
-    .row
-      .col-1.d-flex.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center
+      .col-lg-1.col-2
         figure
           img(src='@/assets/curso/tema1/img24.svg', alt='Texto que describa la imagen')
-      .col-8
+      .col-11
         div
           h3 Cliente o consumidor
           p Se entiende por cliente a aquella persona o entidad que compra bienes y servicios que son requeridos a partir de necesidades específicas; es llamado cliente porque el producto generado en un espacio de compra y venta puede ser para él en particular o para otras personas, un cliente puede ser también una empresa. Por consumidor se entiende, entonces, a la persona que compra productos para su consumo personal y, dependiendo del tipo de necesidad que manifieste, este se consumirá siempre en su beneficio. Generalmente suelen utilizarse ambos conceptos en el léxico común, pero en la moda la palabra utilizada para referirse a las personas es consumidor el cual se encuentra determinado por valores, conceptos y experiencias de este con el producto ofrecido, que debe responder a los perfiles y estilos del consumidor que hoy predominan, para construir propuestas a partir de este reconocimiento.
@@ -282,8 +272,8 @@
         figure
           img(src='@/assets/curso/tema1/img26.svg', alt='Texto que describa la imagen')
     hr
-    .row
-      .col-1.d-flex.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center
+      .col-lg-1.col-2
         figure
           img(src='@/assets/curso/tema1/img25.svg', alt='Texto que describa la imagen')
       .col-11
@@ -292,8 +282,8 @@
           p Un perfil no se determina por la edad ni por el segmento socioeconómico, pues todos los perfiles se encuentran en las diferentes edades y segmentos socioeconómicos, y estos van ligados con los estilos de vida, preferencias, gustos, actitudes, relaciones, experiencias y espacios, entre otros. Dentro de los perfiles de consumidor que se encuentran, como una lectura del conjunto de personas o público objetivo en el sector de la moda, están: 
       
     .row.mb-5
-      .col-1
-      .col-11
+      .row.align-items-center.justify-content-center
+      .col-lg-11.col-12
          TabsB.color-acento-contenido
           .py-4.py-md-5(titulo="Consumidor tradicional" :icono="require('@/assets/curso/tema1/img27.svg')")
             .row

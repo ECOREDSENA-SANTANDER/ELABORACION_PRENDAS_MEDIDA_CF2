@@ -12,9 +12,9 @@
       .video
         iframe(width="1280" height="720" src="https://www.youtube.com/embed/zqxRNVjvi8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
 
-    .row.fondo-c.mb-5
+    .row.fondo-c.mb-5.justify-content-center
       .col-md-1
-      .col-md-3.py-5
+      .col-md-3.py-5.col-6
         figure
           img(src='@/assets/curso/tema2/img14.svg', alt='Texto que describa la imagen')
       .col-md-1

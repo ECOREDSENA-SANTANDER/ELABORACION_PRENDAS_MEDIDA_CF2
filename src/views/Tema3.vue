@@ -72,14 +72,14 @@
         .titulo-quinto.color-acento-botones
           h4 Figura 11
             p Cuadro metamórfico
-        img(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema2/img10.png', alt='un cuadro que presenta las diferentes secciones que se deben tener en cuenta al momento de elegir detalles de una prenda de vestir.')
         .text-small.py-2 Un cuadro que presenta las diferentes secciones que se deben tener en cuenta al momento de elegir detalles de una prenda de vestir.
       .col-lg-8     
         figure
         .titulo-quinto.color-acento-botones
           h4 Figura 12
             p Prendas por separado     
-        img(src='@/assets/curso/tema2/img11.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema2/img11.png', alt='cuadro que enuncia individualmente las diferentes partes de las prendas:  cuellos, escotes, bolsillos. sistema de cierre mangas y sistema de ajuste.')
         .text-small.py-2 Cuadro que enuncia individualmente las diferentes partes de las prendas:  cuellos, escotes, bolsillos. sistema de cierre mangas y sistema de ajuste.
 
     p.mb-4 Una vez establecidos los tres puntos anteriores se organiza la información de las ideas utilizando un esquema tipo tabla para generar varias opciones de cada una de esas partes (estas deben estar en coherencia con lo que se pretende generar y lo que le brinde pertenencia al consumidor al cual va dirigido).
@@ -92,7 +92,7 @@
         .titulo-quinto.color-acento-botones
           h4 Figura 13
             p Ejemplo de un cuadro metamórfico de prendas  
-        img(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema2/img12.png', alt='la imagen es una cuadricula donde se presentan varias opciones para: la silueta de la prenda, el cuello, las mangas, el bolsillo, el sistema de cierre y el puño.')
         .text-small.py-2 La imagen es una cuadricula donde se presentan varias opciones para: la silueta de la prenda, el cuello, las mangas, el bolsillo, el sistema de cierre y el puño.
       .col-3
     
@@ -104,7 +104,7 @@
         .titulo-quinto.color-acento-botones 
           h4 Figura 14. 
             p Tipología #[em blazer]
-        img(src='@/assets/curso/tema2/img13.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema2/img13.png', alt='la imagen presenta un cuadro metamórfico de un blazer, donde se elige una opción por cada fila y luego se evidencia el resultado final que es el blazer.')
         p.py-4 La imagen presenta un cuadro metamórfico de un #[em blazer], donde se elige una opción por cada fila y luego se evidencia el resultado final que es el #[em blazer].
       .col-3
 

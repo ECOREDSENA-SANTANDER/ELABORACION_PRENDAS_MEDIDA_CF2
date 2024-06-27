@@ -108,7 +108,7 @@
         .titulo-quinto.color-acento-botones
           h4 Figura 15. 
             p Hilaturas
-        img(src='@/assets/curso/tema4/img03.png', alt='La imagen es un collage de fotografías de hilaturas de diferentes colores')
+        img(src='@/assets/curso/tema4/img03.png', alt='la imagen es un collage de fotografías de hilaturas de diferentes colores.')
         figcaption Nota. Tomada de Pinterest (2021).
       .col-3
 
@@ -337,7 +337,7 @@
         .titulo-quinto.color-acento-botones 
             h4 Figura 17. 
               p Procesos generales para los acabados textiles
-        img(src='@/assets/curso/tema4/img14.svg', alt='La imagen define 4 procesos: limpieza, diseño y color, textura y desempeño')
+        img(src='@/assets/curso/tema4/img14.svg', alt='la imagen define 4 procesos: limpieza, diseño y color, textura y desempeño.')
       .col-2
     br
     .row.mb-4
@@ -377,7 +377,7 @@
         .titulo-quinto.color-acento-botones 
           h4 Figura 18. 
             p Métodos de diseño y color en textiles
-        img(src='@/assets/curso/tema4/img17.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema4/img17.svg', alt='diferentes fotografías de formas de teñido en fibras, hilos, materia prima o piezas.')
   
     .py-3
     .row.justify-content-center.align-items-center
@@ -386,7 +386,7 @@
         .titulo-quinto.color-acento-botones 
           h4 Figura 19. 
             p Estampados en los textiles
-        img(src='@/assets/curso/tema4/img18.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema4/img18.svg', alt='en la imagen se enuncian las diferentes técnicas de estampado: rotativa, serigrafía, sublimación, transfer y digital.')
     
 
     .row.mb-4
@@ -407,7 +407,7 @@
         .titulo-quinto.color-acento-botones 
             h4 Figura 20. 
               p Textura en los textiles
-        img(src='@/assets/curso/tema4/img20.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema4/img20.svg', alt='se presentan, a través de pequeñas fotografías, 5 tipos de textura: calandrar satinado, glaseado, afelpado, sanforizado  y reducción de brillo.')
       .col-2
     
     .row.mb-4

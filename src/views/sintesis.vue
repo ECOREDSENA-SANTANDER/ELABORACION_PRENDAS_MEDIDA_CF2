@@ -7,7 +7,7 @@
       .row.justify-content-center
         .col-lg-10.mb-5
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="alt")
+            img(src="@/assets/curso/sintesis.svg", alt="el diagrama de flujo presenta el contenido de la unidad, describiendo cada tema y sus subtemas")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
